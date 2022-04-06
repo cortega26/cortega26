@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Carlos Ortega.
-- 👀 I’m interested in Data Analytics/Science
-- 🌱 I’m currently working with Python and job hunting
-- 💞️ I’m looking to collaborate on new projects
+- 👀 I’m passionate about Data Analytics/Science
+- 🌱 Currently working with Python
+- 💞️ Looking to collaborate on new projects
 - 📫 How to reach me: carlosortega77 at gmail.com
 
 <!---
