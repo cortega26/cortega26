@@ -1,12 +1,12 @@
-👋 Hi, I’m Carlos Ortega, a highly motivated data enthusiast and Python programmer actively seeking new job opportunities.
+👋 Hola, soy Carlos Ortega, un entusiasta de los datos altamente motivado y programador en Python en busca activamente de nuevas oportunidades laborales.
 
-👀 I’m passionate about Data Analytics/Science and enjoy delving into data to uncover meaningful insights and drive informed decision-making. Additionally, I have a strong affinity for programming in general, particularly in Python, and I love leveraging its versatility to automate tasks and solve complex problems.
+👀 Soy apasionado por la Analítica/Ciencia de Datos y disfruto adentrarme en los datos para descubrir ideas significativas y fomentar la toma de decisiones fundamentadas. Además, tengo una fuerte afinidad por la programación en general, especialmente en Python, y me encanta aprovechar su versatilidad para automatizar tareas y resolver problemas complejos.
 
-🐍 With a solid foundation in Python, I am constantly expanding my skills in data manipulation, analysis, visualization, and machine learning. I thrive in a collaborative environment where I can contribute my expertise and learn from others.
+🐍 Con una sólida base en Python, estoy constantemente ampliando mis habilidades en manipulación de datos, análisis, visualización y aprendizaje automático. Progreso en un entorno colaborativo en el que puedo aportar mi experiencia y aprender de los demás.
 
-💼 I'm currently seeking new opportunities in the field of Data Analytics/Science or any related roles that involve programming, automation, and problem-solving. If you have a challenging project or an exciting job opening, I'd love to hear from you!
+💼 Actualmente, estoy buscando nuevas oportunidades en el campo de la Analítica/Ciencia de Datos o cualquier otro rol relacionado que implique programación, automatización y resolución de problemas. Si tienes un proyecto desafiante o una emocionante oferta laboral, ¡me encantaría saber de ti!
 
-📫 Feel free to reach out to me at carlosortega77@gmail.com. Whether it's discussing potential collaborations, job opportunities, or simply connecting with fellow professionals, I'm always open to engaging in enriching conversations.
+📫 No dudes en contactarme en carlosortega77@gmail.com. Ya sea para discutir posibles colaboraciones, oportunidades laborales o simplemente conectar con otros profesionales, siempre estoy abierto a participar en conversaciones enriquecedoras.
 
 <!---
 cortega26/cortega26 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
