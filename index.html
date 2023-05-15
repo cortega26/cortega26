@@ -1,0 +1,9 @@
+<script>
+  const browserLang = navigator.language || navigator.userLanguage;
+  
+  if (browserLang.startsWith("es")) {
+    window.location.href = "/spanish";
+  } else {
+    window.location.href = "/main";
+  }
+</script>
