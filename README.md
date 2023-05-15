@@ -8,6 +8,8 @@
 
 📫 Feel free to reach out to me at carlosortega77@gmail.com. Whether it's discussing potential collaborations, job opportunities, or simply connecting with fellow professionals, I'm always open to engaging in enriching conversations.
 
+:earth_americas: [Leer en español](../../tree/spanish)
+
 <!---
 cortega26/cortega26 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
