@@ -34,9 +34,9 @@ Feel free to reach out to me at carlosortega77@gmail.com. Whether it's discussin
 
 <!-- Add a footer with icons and links to your social media profiles or relevant websites -->
 ## 🌐 Connect with me:
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=LinkedIn&logoColor=white&link=https://www.linkedin.com/in/carlosortega/)](https://www.linkedin.com/in/carlosortega/)
-[![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=GitHub&logoColor=white&link=https://github.com/yourusername)](https://github.com/yourusername)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-8E44AD?style=flat-square&link=https://carlosortega.com/)](https://carlosortega.com/)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=LinkedIn&logoColor=white&link=https://www.linkedin.com/in/cortega26/)](https://www.linkedin.com/in/cortega26/)
+[![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=GitHub&logoColor=white&link=https://github.com/cortega26)](https://github.com/cortega26)
+
 
 
 :earth_americas: [Leer en español](../../tree/spanish)
