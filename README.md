@@ -17,7 +17,7 @@ I recently completed a rigorous FullStack Python bootcamp, where I honed my skil
 
 ## 📊 Data Analytics Projects
 
-I believe that visualizing data is a powerful way to communicate findings effectively. Here's an example of my data visualization project:
+I believe that visualizing data is a powerful way to communicate findings effectively. Here's an example of a data viz:
 
 [![Sample Data Visualization](./indicadores.png)](https://public.flourish.studio/visualisation/9177797/)
 
