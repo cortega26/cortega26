@@ -15,13 +15,11 @@ With a solid foundation in Python, I am constantly expanding my skills in data m
 
 I recently completed a rigorous FullStack Python bootcamp, where I honed my skills in developing end-to-end web applications, building APIs, and working with databases. I'm excited to apply these skills to real-world projects and contribute to meaningful solutions.
 
-## 📈 Data Visualization
-
-I believe that visualizing data is a powerful way to communicate findings effectively. Here are some examples of my data visualization projects:
+I believe that visualizing data is a powerful way to communicate findings effectively. Here's an example of my data visualization project:
 
 [![Sample Data Visualization](./indicadores.png)](https://public.flourish.studio/visualisation/9177797/)
 
-[Click here to view the Full Bar Chart Race](https://public.flourish.studio/visualisation/9177797/)
+Click on the image above to see the full **Bar Chart Race** in action!
 
 ## 📊 Data Analytics Projects
 
