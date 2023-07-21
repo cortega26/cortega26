@@ -20,7 +20,7 @@ Creo que visualizar datos es una forma poderosa de comunicar los hallazgos de ma
 
 [![Muestra de Visualización de Datos](./indicadores.png)](https://public.flourish.studio/visualisation/9177797/)
 
-¡Haz clic en la imagen de arriba para ver la **Carrera de Gráficos de Barras** en acción!
+¡Haz clic en la imagen de arriba para ver la **Bar Chart Race** en acción!
 
 ## 📫 Conectemos
 
