@@ -17,7 +17,7 @@ I recently completed a rigorous FullStack Python bootcamp, where I honed my skil
 
 ## 📊 Data Analytics Projects
 
-I believe that visualizing data is a powerful way to communicate findings effectively. Here's an example of a data viz (click on the image above to see the full **Bar Chart Race** in action):
+I believe that visualizing data is a powerful way to communicate findings effectively. Here's an example of a data viz (click on the image below to see the full **Bar Chart Race** in action):
 
 [![Sample Data Visualization](./indicadores.png)](https://public.flourish.studio/visualisation/9177797/)
 
