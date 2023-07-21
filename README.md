@@ -19,7 +19,7 @@ I recently completed a rigorous FullStack Python bootcamp, where I honed my skil
 
 I believe that visualizing data is a powerful way to communicate findings effectively. Here are some examples of my data visualization projects:
 
-![Sample Data Visualization](DIRECT_IMAGE_LINK_HERE)
+![Sample Data Visualization](./indicadores.png)
 
 [Click here to view Sample Data Visualization](https://public.flourish.studio/visualisation/9177797/)
 
