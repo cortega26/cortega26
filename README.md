@@ -15,18 +15,13 @@ With a solid foundation in Python, I am constantly expanding my skills in data m
 
 I recently completed a rigorous FullStack Python bootcamp, where I honed my skills in developing end-to-end web applications, building APIs, and working with databases. I'm excited to apply these skills to real-world projects and contribute to meaningful solutions.
 
+## 📊 Data Analytics Projects
+
 I believe that visualizing data is a powerful way to communicate findings effectively. Here's an example of my data visualization project:
 
 [![Sample Data Visualization](./indicadores.png)](https://public.flourish.studio/visualisation/9177797/)
 
 Click on the image above to see the full **Bar Chart Race** in action!
-
-## 📊 Data Analytics Projects
-
-Here are some of my data analytics projects that demonstrate my problem-solving skills and data-driven insights:
-
-1. [Project Name 1](link-to-project-1): Short description of the project.
-2. [Project Name 2](link-to-project-2): Short description of the project.
 
 ## 📫 Let's Connect
 
