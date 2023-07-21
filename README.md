@@ -36,7 +36,7 @@ Feel free to reach out to me at carlosortega77@gmail.com. Whether it's discussin
 :earth_americas: [Leer en español](../../tree/spanish)
 
 <p align="center">
-  <img src="http://some_place.com/image.png](https://komarev.com/ghpvc/?username=cortega26&style=flat-square" />
+  <a href="http://some_place.com/image.png](https://komarev.com/ghpvc/?username=cortega26&style=flat-square">![]</a>
 </p>
 ![](https://komarev.com/ghpvc/?username=cortega26&style=flat-square)
 
