@@ -36,7 +36,7 @@ Feel free to reach out to me at carlosortega77@gmail.com. Whether it's discussin
 :earth_americas: [Leer en español](../../tree/spanish)
 
 
-![](https://komarev.com/ghpvc/?username=cortega26&style=flat-square)
+[![](https://komarev.com/ghpvc/?username=cortega26&style=flat-square) align="center"]
 
 <!---
 cortega26/cortega26 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
