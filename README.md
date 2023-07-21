@@ -21,7 +21,7 @@ I believe that visualizing data is a powerful way to communicate findings effect
 
 ![Sample Data Visualization](./indicadores.png)
 
-[Click here to view Sample Data Visualization](https://public.flourish.studio/visualisation/9177797/)
+[Click here to view the Full Bar Chart Race](https://public.flourish.studio/visualisation/9177797/)
 
 ## 📊 Data Analytics Projects
 
