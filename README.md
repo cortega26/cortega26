@@ -35,9 +35,7 @@ Feel free to reach out to me at carlosortega77@gmail.com. Whether it's discussin
 
 :earth_americas: [Leer en español](../../tree/spanish)
 
-<div align="center">
-  ![](https://komarev.com/ghpvc/?username=cortega26&style=flat-square)
-</div>
+
 ![](https://komarev.com/ghpvc/?username=cortega26&style=flat-square)
 
 <!---
