@@ -1,5 +1,5 @@
 <!-- Add a header with your name and a short introduction -->
-# 👋 Hi, I'm Carlos Ortega!
+# 👋 Hi, I'm Carlos!
 
 A highly motivated data enthusiast and Python programmer actively seeking new job opportunities in the field of Data Analytics/Science, FullStack Python Development, and DevOps roles.
 
