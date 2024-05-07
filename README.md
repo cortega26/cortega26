@@ -10,7 +10,6 @@ Feel free to reach out to me at carlosortega77@gmail.com. Whether it's discussin
 <!-- Add a footer with icons and links to your social media profiles or relevant websites -->
 ## 🌐 Connect with me:
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=LinkedIn&logoColor=white&link=https://www.linkedin.com/in/cortega26/)](https://www.linkedin.com/in/cortega26/)
-[![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=GitHub&logoColor=white&link=https://github.com/cortega26)](https://github.com/cortega26)
 
 
 
