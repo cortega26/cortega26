@@ -8,7 +8,7 @@ I'm passionate about Data Analytics/Science and enjoy delving into data to uncov
 Feel free to reach out to me at carlosortega77@gmail.com. Whether it's discussing potential collaborations, job opportunities, or simply connecting with fellow professionals, I'm always open to engaging in enriching conversations.
 
 <!-- Add a footer with icons and links to your social media profiles or relevant websites -->
-🌐 Connect with me: [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=LinkedIn&logoColor=white&link=https://www.linkedin.com/in/cortega26/)](https://www.linkedin.com/in/cortega26/)
+🌐 Connect with me: [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn&logoColor=white&link=https://www.linkedin.com/in/cortega26/)](https://www.linkedin.com/in/cortega26/)
 
 [![Static Badge](https://img.shields.io/badge/Leer%20en%20-%20Espa%C3%B1ol%20-%20blue)](../../tree/spanish)
 
