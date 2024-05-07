@@ -13,7 +13,7 @@ Feel free to reach out to me at carlosortega77@gmail.com. Whether it's discussin
 
 [![Static Badge](https://img.shields.io/badge/Leer%20en%20-%20Espa%C3%B1ol%20-%20blue)](../../tree/spanish)
 
-![](https://komarev.com/ghpvc/?username=cortega26&style=flat-square)
+![](https://komarev.com/ghpvc/?username=cortega26&style=flat)
 
 <!---
 cortega26/cortega26 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
