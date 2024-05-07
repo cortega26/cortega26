@@ -6,7 +6,7 @@ I'm passionate about Data Analytics/Science and enjoy delving into data to uncov
 
 ## 📫 Let's Connect
 
-Feel free to reach out to me at carlosortega77@gmail.com. Whether it's discussing potential collaborations, job opportunities, or simply connecting with fellow professionals, I'm always open to engaging in enriching conversations.
+Feel free to reach out to me at <carlosortega77@gmail.com>. Whether it's discussing potential collaborations, job opportunities, or simply connecting with fellow professionals, I'm always open to engaging in enriching conversations.
 
 <!-- Add a footer with icons and links to your social media profiles or relevant websites -->
 
