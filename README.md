@@ -11,7 +11,7 @@ Feel free to reach out to me at carlosortega77@gmail.com. Whether it's discussin
 ## 🌐 Connect with me:
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=LinkedIn&logoColor=white&link=https://www.linkedin.com/in/cortega26/)](https://www.linkedin.com/in/cortega26/)
 
-[![Static Badge](https://img.shields.io/badge/Espa%C3%B1ol%20-%20blue)](../../tree/spanish)
+[![Static Badge](https://img.shields.io/badge/Leer%20en%20-%20Espa%C3%B1ol%20-%20blue)](../../tree/spanish)
 
 ![](https://komarev.com/ghpvc/?username=cortega26&style=flat-square)
 
