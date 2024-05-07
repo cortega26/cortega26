@@ -13,6 +13,7 @@ Feel free to reach out to me at carlosortega77@gmail.com. Whether it's discussin
 
 
 
+[![Static Badge](https://img.shields.io/badge/Espa%C3%B1ol%20-%20blue)](../../tree/spanish)
 
 :earth_americas: [Leer en español](../../tree/spanish)
 
