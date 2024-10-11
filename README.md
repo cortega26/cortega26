@@ -39,11 +39,6 @@ Always improving my skills. Currently learning:
 
 ## 💡 Let's Connect
 
-I'm always open to interesting conversations and collaboration opportunities. Feel free to reach out!
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/cortega26/)
-- 📧 [Email](mailto:carlosortega77@gmail.com)
-
 ---
 
 ![Profile views](https://komarev.com/ghpvc/?username=cortega26&color=brightgreen)
