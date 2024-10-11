@@ -58,7 +58,7 @@ Always improving my skills. Currently learning:
 
 ## 💡 Let's Connect
 
-I'm always open to collaboration on exciting projects! Feel free to reach out if you're interested in working together or have any questions about my projects.
+I'm always open to collaboration on exciting projects! Feel free to let me know if you're interested in working together or have any questions about my projects.
 
 ---
 
