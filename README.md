@@ -28,7 +28,22 @@ Passionate Data Analyst with a knack for transforming complex datasets into acti
 
 Here are some projects that showcase my skills:
 
-[UNDER DEVELOPMENT]
+## Projects
+
+### [rutificador](https://github.com/cortega26/rutificador)
+A Python library for validating and formatting the Chilean Rol Único Tributario (RUT). This tool is essential for businesses or individuals dealing with RUT validation in Chile, ensuring proper formatting and validation with ease.
+
+### [PDF-Text-Analyzer](https://github.com/cortega26/PDF-Text-Analizer)
+An advanced script for downloading PDFs, converting them to text, and performing text analysis. This tool can be used in automation pipelines where document analysis and data extraction are necessary.
+
+### [polla](https://github.com/cortega26/polla)
+A web scraping tool that fetches prize information from the Chilean betting site "polla.cl" and updates a Google Sheet. This automation reduces manual data entry and provides up-to-date information in real-time.
+
+### [FastSearchAPI](https://github.com/cortega26/FastSearchAPI)
+A FastAPI-based search tool for filtering JSON data by name, RUT (Chilean ID), and other parameters. This API offers fast and efficient search capabilities, useful for applications requiring large-scale data filtering.
+
+### [crypto-price-tracker](https://github.com/cortega26/crypto-price-tracker)
+A Python tool for tracking real-time cryptocurrency prices on Binance. Sends customizable email alerts when significant price changes occur, ensuring you stay updated on market movements.
 
 ## 📚 Continuous Learning
 
