@@ -1,4 +1,4 @@
-# Data Analyst | Python Automation Expert | Transforming Data into Actionable Insights 🐍📊
+# Data Analyst | Python Automation Geek
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/cortega26/)
 [![Email](https://img.shields.io/badge/-Email-red?style=flat&logo=Gmail&logoColor=white)](mailto:carlosortega77@gmail.com)
