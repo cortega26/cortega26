@@ -16,13 +16,13 @@ I build **data & automation tools** in Python — packages, APIs, scrapers, and 
 ---
 
 ## Selected Projects
-- 🔹 **rutificador** — production-ready RUT tools (batch processing + CSV/JSON/XML outputs).  
+-  **rutificador** — production-ready RUT tools (batch processing + CSV/JSON/XML outputs).  
   <sub>Python · Tests · CI/CD · CodeQL · Coverage</sub>  
-- 🔹 **polla** — robust prize scraper with retries & logging; designed for scheduled runs.  
+-  **polla** — robust prize scraper with retries & logging; designed for scheduled runs.  
   <sub>Python · Selenium · BeautifulSoup · Google Sheets API</sub>  
-- 🔹 **PDF-Text-Analyzer** — text extraction + frequency/phrase search across languages.  
+-  **PDF-Text-Analyzer** — text extraction + frequency/phrase search across languages.  
   <sub>Python · PyMuPDF · NLTK · langdetect</sub>  
-- 🔹 **crypto-price-tracker** — alerts on significant price moves; daily digest option.  
+-  **crypto-price-tracker** — alerts on significant price moves; daily digest option.  
   <sub>Python · Email Automation · (GUI)</sub>
 
 ---
