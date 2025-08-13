@@ -49,6 +49,6 @@ Desarrollo **herramientas de datos y automatización** en Python: paquetes, APIs
 - **PDF-Text-Analyzer**: descarga un PDF desde URL, extrae texto y realiza análisis (idioma, stopwords, frases).
 - **crypto-price-tracker**: precios en tiempo real y **alertas por email**.
 
-**Habilidades:** Python, Pandas, FastAPI, Selenium, SQL, NLTK, GitHub Actions, Docker (básico), Tableau.
+**Habilidades:** Python, Pandas, FastAPI, Selenium, SQL, NLTK, GitHub Actions, Tableau.
 
 </details>
