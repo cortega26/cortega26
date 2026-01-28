@@ -25,7 +25,7 @@ I build **data & automation tools** in Python — packages, APIs, scrapers, and 
 -  **crypto-price-tracker** — alerts on significant price moves; daily digest option.  
   <sub>Python · Email Automation · (GUI)</sub>
 -  **noticiencias** — science news presentation layer, optimized for context and readability.
-  <sub>Astro · CSS · Static Site · Accessibility · SEO</sub>
+<sub>Astro · CSS · Static Site · Accessibility · SEO</sub>
 
 ---
 
