@@ -1,6 +1,6 @@
 # Carlos Ortega — Data & Python Automation
 
-I build **data & automation tools** in Python — packages, APIs, scrapers, and reporting pipelines.
+I design and ship Python systems that solve real-world business and analytical problems, from robust ETL and automation pipelines to web scrapers and scalable APIs.
 **Bilingual (ES/EN).** Open to freelance & collabs.
 
 [LinkedIn](https://www.linkedin.com/in/cortega26/) · X: [@cortega26](https://x.com/cortega26)
