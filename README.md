@@ -25,7 +25,7 @@ I design and ship production‑grade Python systems that solve real‑world busi
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cortega26&show_icons=true&hide=stars&theme=default)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cortega26&layout=compact&theme=default)
-![GitHub Streak](https://streak-stats.vercel.app?user=cortega26&theme=default)
+![GitHub Streak](https://streak-stats.demolab.com/?user=cortega26&theme=default)
 
 ## Selected Projects
 
@@ -100,7 +100,7 @@ Construyo sistemas en Python listos para producción orientados a datos y automa
 
 #### Logros destacados
 
-- **20+** estrellas en GitHub en total
+- **20**20+** estrellas en GitHub en total
 - **50+** pull requests fusionados con éxito
 - **10+** proyectos desplegados en producción con CI/CD
 - **5+** proyectos con cobertura de tests ≥90% y análisis de seguridad con CodeQL
@@ -109,7 +109,7 @@ Construyo sistemas en Python listos para producción orientados a datos y automa
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cortega26&show_icons=true&hide=stars&theme=default)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cortega26&layout=compact&theme=default)
-![GitHub Streak](https://streak-stats.vercel.app?user=cortega26&theme=default)
+![GitHub Streak](https://streak-stats.demolab.com/?user=cortega26&theme=default)
 
 #### Lo que me importa
 
