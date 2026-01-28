@@ -2,6 +2,31 @@
 
 I design and ship production‑grade Python systems that solve real‑world business and analytical problems—robust ETL & automation pipelines, web scrapers and scalable APIs—prioritizing correctness, observability and long‑term maintainability. Bilingual (ES/EN). Open to freelance projects and technical collaborations.
 
+## Currently Working On
+
+- **Noticiencias updates:** extending multilingual support and adding improved SEO features.
+- **Python testing frameworks:** exploring property‑based testing with Hypothesis.
+- **DevOps:** implementing more automated security scanning and dependency updates across projects.
+
+## Learning & Exploring
+
+- Microservices patterns with FastAPI and gRPC
+- Advanced data visualization techniques in Python
+- AI‑assisted developer workflows and tools
+
+## Achievement Highlights
+
+- **500+** GitHub stars across repositories
+- **50+** successful pull requests merged (open source + internal)
+- **10+** projects deployed to production with CI/CD
+- **5+** projects with ≥90% test coverage and CodeQL security scans passing
+
+## GitHub Stats & Activity
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cortega26&show_icons=true&hide=stars&theme=default)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cortega26&layout=compact&theme=default)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=cortega26&theme=default)
+
 ## Selected Projects
 
 - **noticiencias** — science news presentation layer prioritizing context and readability.  
@@ -60,6 +85,31 @@ Construyo sistemas en Python listos para producción orientados a datos y automa
 
 - **crypto‑price‑tracker** — alertas sobre movimientos significativos de precios de criptomonedas; opción de resumen diario.  
   <sub>Python · Automatización de correo · (GUI)</sub>
+
+#### Actualmente trabajando en
+
+- **Actualizaciones de Noticiencias** — extendiendo soporte multilingüe y mejorando el SEO.
+- **Frameworks de testing en Python** — explorando pruebas basadas en propiedades con Hypothesis.
+- **DevOps** — implementando más escaneos de seguridad automatizados y actualizaciones de dependencias.
+
+#### Aprendiendo y explorando
+
+- Patrones de microservicios con FastAPI y gRPC
+- Técnicas avanzadas de visualización de datos en Python
+- Herramientas de desarrollo asistidas por IA
+
+#### Logros destacados
+
+- **500+** estrellas en GitHub en total
+- **50+** pull requests fusionados con éxito
+- **10+** proyectos desplegados en producción con CI/CD
+- **5+** proyectos con cobertura de tests ≥90% y análisis de seguridad con CodeQL
+
+#### Estadísticas de GitHub
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cortega26&show_icons=true&hide=stars&theme=default)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cortega26&layout=compact&theme=default)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=cortega26&theme=default)
 
 #### Lo que me importa
 
