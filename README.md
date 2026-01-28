@@ -7,14 +7,6 @@ Bilingual (ES/EN). Open to freelance & collabs.
 
 ---
 
-## Highlights
-- **`rutificador`** → PyPI library for Chilean RUT validation/formatting; tests + CI + CodeQL + coverage.  
-- **`polla`** → Selenium + BeautifulSoup scraper that updates a **Google Sheet** after each draw.  
-- **`PDF-Text-Analyzer`** → Downloads a PDF from a URL, extracts text, runs language detect + stopwords + phrase search.  
-- **`crypto-price-tracker`** → Live Binance prices with **email alerts** and a simple GUI.
-
----
-
 ## Selected Projects
 -  **rutificador** — production-ready RUT tools (batch processing + CSV/JSON/XML outputs).  
   <sub>Python · Tests · CI/CD · CodeQL · Coverage</sub>  
