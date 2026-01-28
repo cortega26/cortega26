@@ -25,7 +25,6 @@ I design and ship production‑grade Python systems that solve real‑world busi
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cortega26&show_icons=true&hide=stars&theme=default)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cortega26&layout=compact&theme=default)
-![GitHub Streak](https://streak-stats.demolab.com/?user=cortega26&theme=default)
 
 ## Selected Projects
 
