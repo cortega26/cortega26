@@ -21,11 +21,6 @@ I design and ship production‑grade Python systems that solve real‑world busi
 - **10+** projects deployed to production with CI/CD
 - **5+** projects with ≥90% test coverage and CodeQL security scans passing
 
-## GitHub Stats & Activity
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cortega26&show_icons=true&hide=stars&theme=default)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cortega26&layout=compact&theme=default)
-
 ## Selected Projects
 
 - **noticiencias** — science news presentation layer prioritizing context and readability.  
