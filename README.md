@@ -1,114 +1,83 @@
-# Carlos Ortega — Data & Python Automation
+# Carlos Ortega — Python Automation & Data Systems
 
-I design and ship production‑grade Python systems that solve real‑world business and analytical problems—robust ETL & automation pipelines, web scrapers and scalable APIs—prioritizing correctness, observability and long‑term maintainability. Bilingual (ES/EN). Open to freelance projects and technical collaborations.
+I build production-ready Python systems for real operational work: ETL pipelines, scraping workflows, internal APIs, and reporting automation. I care about correctness, observability, clear documentation, and handoff quality. Bilingual in English and Spanish. Open to freelance projects and technical collaborations.
 
-## Currently Working On
+[Portfolio](https://tooltician.com/) · [LinkedIn](https://www.linkedin.com/in/cortega26) · [GitHub](https://github.com/cortega26) · [Email](mailto:carlosortega77@gmail.com) · [Noticiencias](https://www.noticiencias.com/)
 
-- **Noticiencias updates:** extending multilingual support and adding improved SEO features.
-- **Python testing frameworks:** exploring property‑based testing with Hypothesis.
-- **DevOps:** implementing more automated security scanning and dependency updates across projects.
+## Current Focus
 
-## Learning & Exploring
+- Strengthening portfolio-facing repos so they are easier to evaluate and reuse.
+- Improving testing, packaging, and operational documentation across Python projects.
+- Continuing work on multilingual publishing and SEO through Noticiencias.
 
-- Microservices patterns with FastAPI and gRPC
-- Advanced data visualization techniques in Python
-- AI‑assisted developer workflows and tools
+## Proof Signals
 
-## Achievement Highlights
+- Public repos with CI, documentation, and production-minded packaging.
+- Published Python packages on PyPI, including `rutificador` and `bankrecon`.
+- Automation projects designed for reliability, auditability, and long-term maintainability.
+- Live public work, including the Tooltician portfolio and the Noticiencias frontend.
 
-- **20+** GitHub stars across repositories
-- **50+** successful pull requests merged (open source + internal)
-- **10+** projects deployed to production with CI/CD
-- **5+** projects with ≥90% test coverage and CodeQL security scans passing
+## Featured Projects
 
-## Selected Projects
+- [rutificador](https://github.com/cortega26/rutificador) — Python library and CLI for validating and formatting Chilean RUTs.
+  <sub>Python · PyPI · CI/CD · CodeQL · Batch processing</sub>
 
-- **noticiencias** — science news presentation layer prioritizing context and readability.  
-  <sub>Astro · CSS · Static Site · Accessibility · SEO</sub>
+- [conciliador_bancario](https://github.com/cortega26/conciliador_bancario) — fail-closed bank reconciliation CLI with deterministic outputs and audit artifacts.
+  <sub>Python · CLI · Auditability · PyPI · Architecture docs</sub>
 
-- **rutificador** — production‑ready tools for validating Chilean RUT numbers with batch processing and multiple output formats.  
-  <sub>Python · Tests · CI/CD · CodeQL · Coverage</sub>
+- [noticiencias](https://github.com/cortega26/noticiencias) — science-news frontend focused on readability, accessibility, and SEO.
+  <sub>Astro · Static site · Accessibility · SEO · Multilingual</sub>
 
-- **polla** — robust prize scraper with retries & logging, designed for scheduled runs.  
-  <sub>Python · Selenium · BeautifulSoup · Google Sheets API</sub>
+- [polla](https://github.com/cortega26/polla) — reliable jackpot ingestion workflow with deterministic fallbacks and Google Sheets publishing.
+  <sub>Python · Web scraping · Observability · Google Sheets API</sub>
 
-- **PDF‑Text‑Analyzer** — text extraction + frequency/phrase search across languages.  
-  <sub>Python · PyMuPDF · NLTK · langdetect</sub>
+- [PDF-Text-Analyzer](https://github.com/cortega26/PDF-Text-Analyzer) — multilingual PDF extraction, search, and analysis toolkit.
+  <sub>Python · PDF processing · Text analysis · Search</sub>
 
-- **crypto‑price‑tracker** — alerts on significant cryptocurrency price moves; daily digest option.  
-  <sub>Python · Email Automation · (GUI)</sub>
+- [crypto-price-tracker](https://github.com/cortega26/crypto-price-tracker) — real-time crypto monitor with configurable alerts and GUI-based setup.
+  <sub>Python · WebSocket · Alerts · Desktop workflow</sub>
 
-## What I Care About
+## Working Style
 
-- Clear system boundaries and explicit contracts  
-- Testable, observable code with CI/CD pipelines  
-- Reducing cognitive load in long‑lived projects  
-- Fighting misinformation through better tooling and readable interfaces
+- Clear scope and explicit assumptions before implementation.
+- Systems that are testable, observable, and readable by the next maintainer.
+- Interfaces and docs that reduce cognitive load for operators and collaborators.
 
 ## Skills
 
-**Languages & Tools:** Python, SQL, Bash, JavaScript (basics)  
-**Frameworks & Libraries:** FastAPI, Selenium, BeautifulSoup, Pandas, NLTK  
-**Infrastructure & DevOps:** GitHub Actions, Docker (basics), CI/CD, CodeQL  
-**Data & Analytics:** ETL pipelines, web scraping, automation, text analysis
+**Languages & Tools:** Python, SQL, Bash, JavaScript (working knowledge)
+**Frameworks & Libraries:** FastAPI, Selenium, BeautifulSoup, Pandas, NLTK
+**Infra & Delivery:** GitHub Actions, Docker, CI/CD, CodeQL, package publishing
+**Focus Areas:** ETL, automation, scraping, text analysis, internal tooling
 
 ## Contact
 
-I'm always open to collaborations or interesting problems. DM me on [LinkedIn](https://www.linkedin.com/in/cortega26) or [X](https://x.com/cortega26).
+The fastest way to understand my work is through [tooltician.com](https://tooltician.com/). If you have a project in mind, email me at [carlosortega77@gmail.com](mailto:carlosortega77@gmail.com) or reach out on [LinkedIn](https://www.linkedin.com/in/cortega26).
 
 <details>
-  <summary>ESPAÑOL — Resumen en español</summary>
+  <summary>ESPAÑOL — Resumen breve</summary>
 
 ### Hola, soy Carlos
 
-Construyo sistemas en Python listos para producción orientados a datos y automatización: pipelines ETL robustos, scrapers web y APIs escalables. Priorizo la corrección, la mantenibilidad y la observabilidad. Hablo español e inglés. Abierto a proyectos freelance y colaboraciones técnicas.
+Construyo sistemas en Python listos para producción: pipelines ETL, scrapers, APIs internas y automatización de reportes. Priorizo corrección, observabilidad, documentación clara y calidad de entrega. Hablo español e inglés. Abierto a proyectos freelance y colaboraciones técnicas.
 
-#### Proyectos Destacados
+#### Enlaces
 
-- **noticiencias** — capa de presentación de noticias científicas optimizada para contexto y legibilidad.  
-  <sub>Astro · CSS · Sitio estático · Accesibilidad · SEO</sub>
+[Portafolio](https://tooltician.com/) · [LinkedIn](https://www.linkedin.com/in/cortega26) · [GitHub](https://github.com/cortega26) · [Correo](mailto:carlosortega77@gmail.com)
 
-- **rutificador** — herramientas listas para producción que validan el RUT chileno con procesamiento por lotes y múltiples formatos de salida.  
-  <sub>Python · Tests · CI/CD · CodeQL · Cobertura</sub>
+#### Proyectos destacados
 
-- **polla** — scraper robusto de premios con reintentos y logging; diseñado para ejecuciones programadas.  
-  <sub>Python · Selenium · BeautifulSoup · Google Sheets API</sub>
+- [rutificador](https://github.com/cortega26/rutificador) — librería y CLI para validar y formatear RUTs chilenos.
+- [conciliador_bancario](https://github.com/cortega26/conciliador_bancario) — CLI de conciliación bancaria con enfoque fail-closed y trazabilidad.
+- [noticiencias](https://github.com/cortega26/noticiencias) — frontend de noticias científicas optimizado para legibilidad y SEO.
+- [polla](https://github.com/cortega26/polla) — flujo confiable de ingesta de pozos con fallbacks determinísticos.
+- [PDF-Text-Analyzer](https://github.com/cortega26/PDF-Text-Analyzer) — toolkit para extraer, buscar y analizar PDFs multilingües.
+- [crypto-price-tracker](https://github.com/cortega26/crypto-price-tracker) — monitor en tiempo real con alertas configurables.
 
-- **PDF‑Text‑Analyzer** — extracción de texto + búsqueda de frecuencias y frases en varios idiomas.  
-  <sub>Python · PyMuPDF · NLTK · langdetect</sub>
+#### Qué me importa
 
-- **crypto‑price‑tracker** — alertas sobre movimientos significativos de precios de criptomonedas; opción de resumen diario.  
-  <sub>Python · Automatización de correo · (GUI)</sub>
-
-#### Actualmente trabajando en
-
-- **Actualizaciones de Noticiencias** — extendiendo soporte multilingüe y mejorando el SEO.
-- **Frameworks de testing en Python** — explorando pruebas basadas en propiedades con Hypothesis.
-- **DevOps** — implementando más escaneos de seguridad automatizados y actualizaciones de dependencias.
-
-#### Aprendiendo y explorando
-
-- Patrones de microservicios con FastAPI y gRPC
-- Técnicas avanzadas de visualización de datos en Python
-- Herramientas de desarrollo asistidas por IA
-
-#### Logros destacados
-
-- **20**20+** estrellas en GitHub en total
-- **50+** pull requests fusionados con éxito
-- **10+** proyectos desplegados en producción con CI/CD
-- **5+** proyectos con cobertura de tests ≥90% y análisis de seguridad con CodeQL
-
-#### Estadísticas de GitHub
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cortega26&show_icons=true&hide=stars&theme=default)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cortega26&layout=compact&theme=default)
-
-#### Lo que me importa
-
-- Límites claros en el diseño de sistemas  
-- Código testeable, observable y mantenible  
-- Reducir la carga cognitiva en proyectos a largo plazo  
-- Combatir la desinformación mediante mejores herramientas y experiencias de lectura
+- Alcance claro y supuestos explícitos antes de programar.
+- Código testeable, observable y mantenible.
+- Herramientas y documentación que le hagan la vida más fácil al siguiente operador.
 
 </details>
