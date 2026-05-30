@@ -28,7 +28,7 @@ I build production-ready Python systems for real operational work: ETL pipelines
 - [noticiencias](https://github.com/cortega26/noticiencias) — science-news frontend focused on readability, accessibility, and SEO.
   <sub>Astro · Static site · Accessibility · SEO · Multilingual</sub>
 
-- [Monedario](https://github.com/cortega26/tuplatainforma) — Chile-focused personal finance education site with practical calculators, evergreen guides, and editorial governance. [Live site](https://monedario.cl/)
+- [Monedario](https://monedario.cl) — Chile-focused personal finance education site with practical calculators, evergreen guides, and editorial governance.
   <sub>Astro · TypeScript · Personal finance · Calculators · Content systems</sub>
 
 - [polla](https://github.com/cortega26/polla) — reliable jackpot ingestion workflow with deterministic fallbacks and Google Sheets publishing.
