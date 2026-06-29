@@ -5,18 +5,25 @@ al crear, migrar o actualizar el README de cualquier proyecto del ecosistema.
 
 ## Uso
 
-### Badge universal (servido desde tooltician.com)
+### Badge universal (SVG centralizado por idioma)
 
-Una vez desplegado en `tooltician.com/public/badge.svg`:
+SVGs servidos estáticamente desde `tooltician.com/public/`. Cada idioma tiene su propio
+archivo SVG con el texto localizado. Para cambiar el diseño se actualizan solo los SVGs
+y se refleja en todos los proyectos al desplegar.
+
+**Español (por defecto):**
 
 ```markdown
-[![Tooltician](https://tooltician.com/badge.svg)](https://tooltician.com)
+[![Parte de Tooltician](https://tooltician.com/badge.es.svg)](https://tooltician.com)
 ```
 
-**Con borde redondeado y texto blanco sobre fondo morado (#6C47FF).**
-Sirve para todos los idiomas; el tagline en el README aclara la afiliación.
+**English:**
 
-### Badge shields.io con logo (fallback / pre-despliegue)
+```markdown
+[![Part of Tooltician](https://tooltician.com/badge.en.svg)](https://tooltician.com)
+```
+
+### Badge shields.io con logo (alternativa con icono)
 
 ```markdown
 [![Tooltician](https://img.shields.io/badge/Tooltician-6C47FF.svg?style=flat-square)](https://tooltician.com)
@@ -33,10 +40,10 @@ El tagline debe describir el proyecto en ≤12 palabras, en el idioma del README
 *Parte del [ecosistema Tooltician](https://tooltician.com) — <descripción corta del proyecto en español>.*
 ```
 
-Badge (solo si aún no se usa `badge.svg`):
+Badge recomendado:
 
 ```markdown
-[![Parte de Tooltician](https://img.shields.io/badge/Parte%20de-Tooltician-6C47FF.svg?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTIgM2g2YTQgNCAwIDAgMSA0IDR2MTRhMiAyIDAgMCAwLTItMkg0YTIgMiAwIDAgMS0yLTJWNVoiLz48cGF0aCBkPSJNMjIgM2gtNmE0IDQgMCAwIDAtNCA0djE0YTIgMiAwIDAgMSAyLTJoNGEyIDIgMCAwIDAgMi0yVjVhMiAyIDAgMCAwLTItMloiLz48L3N2Zz4=)](https://tooltician.com)
+[![Parte de Tooltician](https://tooltician.com/badge.es.svg)](https://tooltician.com)
 ```
 
 ### English
@@ -45,10 +52,10 @@ Badge (solo si aún no se usa `badge.svg`):
 *Part of the [Tooltician ecosystem](https://tooltician.com) — <short project description in English>.*
 ```
 
-Badge:
+Badge recomendado:
 
 ```markdown
-[![Part of Tooltician](https://img.shields.io/badge/Part%20of-Tooltician-6C47FF.svg?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTIgM2g2YTQgNCAwIDAgMSA0IDR2MTRhMiAyIDAgMCAwLTItMkg0YTIgMiAwIDAgMS0yLTJWNVoiLz48cGF0aCBkPSJNMjIgM2gtNmE0IDQgMCAwIDAtNCA0djE0YTIgMiAwIDAgMSAyLTJoNGEyIDIgMCAwIDAgMi0yVjVhMiAyIDAgMCAwLTItMloiLz48L3N2Zz4=)](https://tooltician.com)
+[![Part of Tooltician](https://tooltician.com/badge.en.svg)](https://tooltician.com)
 ```
 
 ### Français
@@ -57,7 +64,11 @@ Badge:
 *Partie de l'[écosystème Tooltician](https://tooltician.com) — <description courte en français>.*
 ```
 
-Badge: `Partie%20de-Tooltician`
+Badge recomendado:
+
+```markdown
+[![Partie de Tooltician](https://tooltician.com/badge.fr.svg)](https://tooltician.com)
+```
 
 ### Português
 
@@ -65,7 +76,11 @@ Badge: `Partie%20de-Tooltician`
 *Parte do [ecossistema Tooltician](https://tooltician.com) — <descrição curta em português>.*
 ```
 
-Badge: `Parte%20do-Tooltician`
+Badge recomendado:
+
+```markdown
+[![Parte do Tooltician](https://tooltician.com/badge.pt.svg)](https://tooltician.com)
+```
 
 ### Deutsch
 
@@ -73,7 +88,11 @@ Badge: `Parte%20do-Tooltician`
 *Teil des [Tooltician-Ökosystems](https://tooltician.com) — <kurze Beschreibung auf Deutsch>.*
 ```
 
-Badge: `Teil%20von-Tooltician`
+Badge recomendado:
+
+```markdown
+[![Teil von Tooltician](https://tooltician.com/badge.de.svg)](https://tooltician.com)
+```
 
 ## Estructura de README
 
@@ -82,7 +101,7 @@ Badge: `Teil%20von-Tooltician`
 
 *<Tagline en idioma del proyecto>*
 
-[![Tooltician](https://tooltician.com/badge.svg)](https://tooltician.com)
+[![Parte de Tooltician](https://tooltician.com/badge.es.svg)](https://tooltician.com)
 [![CI](...)] ...
 
 ...
