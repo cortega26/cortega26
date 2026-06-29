@@ -17,6 +17,8 @@ I build production-ready Python systems for real operational work: ETL pipelines
 - Automation projects designed for reliability, auditability, and long-term maintainability.
 - Live public work, including the Tooltician portfolio, Monedario, and the Noticiencias frontend.
 
+> **Branding del ecosistema:** Consulta [`TOOLTICIAN.md`](TOOLTICIAN.md) para el badge, taglines por idioma y footer canónico de los proyectos Tooltician.
+
 ## Featured Projects
 
 - [rutificador](https://github.com/cortega26/rutificador) — Python library and CLI for validating and formatting Chilean RUTs.
