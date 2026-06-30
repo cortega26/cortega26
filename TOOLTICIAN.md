@@ -14,19 +14,19 @@ y se refleja en todos los proyectos al desplegar.
 **Español (por defecto):**
 
 ```markdown
-[![Parte de Tooltician](https://tooltician.com/badge.es.svg)](https://tooltician.com)
+[![Parte de Tooltician](https://img.shields.io/badge/Parte_de-Tooltician.com-6C47FF?v=2)](https://tooltician.com)
 ```
 
 **English:**
 
 ```markdown
-[![Part of Tooltician](https://tooltician.com/badge.en.svg)](https://tooltician.com)
+[![Part of Tooltician](https://img.shields.io/badge/Part_of-Tooltician.com-6C47FF?v=2)](https://tooltician.com)
 ```
 
 ### Badge shields.io con logo (alternativa con icono)
 
 ```markdown
-[![Tooltician](https://img.shields.io/badge/Tooltician-6C47FF.svg?style=flat-square)](https://tooltician.com)
+[![Tooltician](https://img.shields.io/badge/Tooltician-6C47FF.svg?style=flat-square&v=2)](https://tooltician.com)
 ```
 
 ## Tagline por idioma
@@ -43,7 +43,7 @@ El tagline debe describir el proyecto en ≤12 palabras, en el idioma del README
 Badge recomendado:
 
 ```markdown
-[![Parte de Tooltician](https://tooltician.com/badge.es.svg)](https://tooltician.com)
+[![Parte de Tooltician](https://img.shields.io/badge/Parte_de-Tooltician.com-6C47FF?v=2)](https://tooltician.com)
 ```
 
 ### English
@@ -55,7 +55,7 @@ Badge recomendado:
 Badge recomendado:
 
 ```markdown
-[![Part of Tooltician](https://tooltician.com/badge.en.svg)](https://tooltician.com)
+[![Part of Tooltician](https://img.shields.io/badge/Part_of-Tooltician.com-6C47FF?v=2)](https://tooltician.com)
 ```
 
 ### Français
@@ -67,7 +67,7 @@ Badge recomendado:
 Badge recomendado:
 
 ```markdown
-[![Partie de Tooltician](https://tooltician.com/badge.fr.svg)](https://tooltician.com)
+[![Partie de Tooltician](https://img.shields.io/badge/Partie_de-Tooltician.com-6C47FF?v=2)](https://tooltician.com)
 ```
 
 ### Português
@@ -79,7 +79,7 @@ Badge recomendado:
 Badge recomendado:
 
 ```markdown
-[![Parte do Tooltician](https://tooltician.com/badge.pt.svg)](https://tooltician.com)
+[![Parte do Tooltician](https://img.shields.io/badge/Parte_do-Tooltician.com-6C47FF?v=2)](https://tooltician.com)
 ```
 
 ### Deutsch
@@ -91,7 +91,7 @@ Badge recomendado:
 Badge recomendado:
 
 ```markdown
-[![Teil von Tooltician](https://tooltician.com/badge.de.svg)](https://tooltician.com)
+[![Teil von Tooltician](https://img.shields.io/badge/Teil_von-Tooltician.com-6C47FF?v=2)](https://tooltician.com)
 ```
 
 ## Estructura de README
@@ -101,7 +101,7 @@ Badge recomendado:
 
 *<Tagline en idioma del proyecto>*
 
-[![Parte de Tooltician](https://tooltician.com/badge.es.svg)](https://tooltician.com)
+[![Parte de Tooltician](https://img.shields.io/badge/Parte_de-Tooltician.com-6C47FF?v=2)](https://tooltician.com)
 [![CI](...)] ...
 
 ...
