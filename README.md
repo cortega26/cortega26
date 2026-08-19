@@ -2,7 +2,7 @@
 
 I build production-ready Python systems for real operational work: ETL pipelines, scraping workflows, internal APIs, and reporting automation. I care about correctness, observability, clear documentation, and handoff quality. Bilingual in English and Spanish. Open to freelance projects and technical collaborations.
 
-[Portfolio](https://tooltician.com/) · [LinkedIn](https://www.linkedin.com/in/cortega26) · [GitHub](https://github.com/cortega26) · [Email](mailto:carlosortega77@gmail.com) · [Monedario](https://monedario.cl/) · [Noticiencias](https://www.noticiencias.com/)
+[Portfolio](https://tooltician.com/) · [LinkedIn](https://www.linkedin.com/in/cortega26) · [Email](mailto:carlosortega77@gmail.com) · [Monedario](https://monedario.cl/) · [Noticiencias](https://www.noticiencias.com/)
 
 ## Current Focus
 
