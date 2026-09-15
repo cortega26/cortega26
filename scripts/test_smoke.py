@@ -201,5 +201,74 @@ class OnlineCheckTests(unittest.TestCase):
         self.assertIn("\nsmoke FAILED: 1 problem(s)", buf.getvalue())
 
 
+PARITY_README = (
+    "# Title\n\n"
+    "[site](https://tooltician.com/) "
+    "[li](https://www.linkedin.com/in/cortega26)\n\n"
+    "## Featured Projects\n\n"
+    "- [a](https://github.com/cortega26/a) — A.\n"
+    "- [b](https://example.com/b) — B.\n\n"
+    "## Next\n\n"
+    "<details>\n<summary>ES</summary>\n\n"
+    "#### Proyectos destacados\n\n"
+    "- [a](https://github.com/cortega26/a) — A es.\n"
+    "- [b](https://example.com/b) — B es.\n\n"
+    "#### Fin\n\n</details>\n"
+)
+
+
+def make_parity_root(tmpdir, readme_content=PARITY_README):
+    write(os.path.join(tmpdir, "README.md"), readme_content)
+    write(os.path.join(tmpdir, "TOOLTICIAN.md"), "# Tool\n")
+
+
+class ProjectParityTests(unittest.TestCase):
+    def test_parity_match_passes(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            make_parity_root(tmpdir)
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                rc = smoke.main(tmpdir)
+        self.assertEqual(rc, 0)
+        self.assertIn("project lists match", buf.getvalue())
+
+    def test_parity_es_drift_fails(self):
+        bad = PARITY_README.replace(
+            "- [a](https://github.com/cortega26/a) — A es.",
+            "- [a](https://github.com/cortega26/a-fork) — A es.",
+        )
+        with tempfile.TemporaryDirectory() as tmpdir:
+            make_parity_root(tmpdir, bad)
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                rc = smoke.main(tmpdir)
+        self.assertEqual(rc, 1)
+        self.assertIn("project mismatch", buf.getvalue())
+        self.assertIn("only in ES", buf.getvalue())
+
+    def test_parity_missing_entry_fails(self):
+        bad = PARITY_README.replace(
+            "- [b](https://example.com/b) — B es.\n", ""
+        )
+        with tempfile.TemporaryDirectory() as tmpdir:
+            make_parity_root(tmpdir, bad)
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                rc = smoke.main(tmpdir)
+        self.assertEqual(rc, 1)
+        self.assertIn("project mismatch", buf.getvalue())
+        self.assertIn("only in EN", buf.getvalue())
+
+    def test_parity_skipped_without_sections(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            make_valid_root(tmpdir)  # no Featured sections
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                rc = smoke.main(tmpdir)
+        self.assertEqual(rc, 0)
+        self.assertNotIn("project lists match", buf.getvalue())
+        self.assertNotIn("project mismatch", buf.getvalue())
+
+
 if __name__ == "__main__":
     unittest.main()

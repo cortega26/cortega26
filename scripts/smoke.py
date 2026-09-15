@@ -10,7 +10,8 @@ Checks:
   3. Every inline markdown link has non-empty text and a well-formed URL
      (http(s) URLs need a host; mailto: needs an address).
   4. Relative links resolve to a file on disk.
-  5. README keeps the profile surface links (portfolio, LinkedIn, GitHub).
+  5. README keeps the profile surface links (portfolio, LinkedIn).
+  6. README EN/ES featured-project lists match (same link targets).
 
 Exit 0 when all checks pass, 1 otherwise. No network access unless
 `--check-online` is passed, no deps.
@@ -51,6 +52,39 @@ def surface_missing(readme_targets, surface_urls):
     """Which required surface URLs lack an exact link target."""
     targets = set(readme_targets)
     return [u for u in surface_urls if u not in targets]
+
+
+def featured_targets(lines, start, end_prefixes):
+    """First-link http(s) targets of `- [` bullets between markers.
+
+    Used for the EN/ES featured-project parity check: the English list
+    lives under `## Featured Projects`, the Spanish mirror under
+    `#### Proyectos destacados`. A missing start marker yields no targets
+    (check skipped) so minimal fixtures stay valid.
+    """
+    targets = []
+    in_section = False
+    in_fence = False
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith("```"):
+            in_fence = not in_fence
+            continue
+        if in_fence:
+            continue
+        if not in_section:
+            if stripped == start:
+                in_section = True
+            continue
+        if stripped.startswith(end_prefixes) or stripped == "</details>":
+            break
+        if stripped.startswith("- ["):
+            for m in LINK_RE.finditer(line):
+                target = m.group(2)
+                if target.startswith(("http://", "https://")):
+                    targets.append(target)
+                    break  # first link = the project link
+    return targets
 
 
 def classify_http_status(url, code):
@@ -231,7 +265,31 @@ def main(root, do_online=False):
         if missing:
             fail(f"README missing profile surface links: {missing}")
         else:
-            ok("README keeps portfolio/LinkedIn/GitHub surface links")
+            ok("README keeps portfolio/LinkedIn surface links")
+
+    # 6. EN/ES featured-project parity (same link targets, both languages)
+    if os.path.isfile(readme_path):
+        with open(readme_path, encoding="utf-8") as f:
+            readme_lines = f.read().splitlines()
+        en_targets = featured_targets(
+            readme_lines, "## Featured Projects", ("## ",)
+        )
+        es_targets = featured_targets(
+            readme_lines, "#### Proyectos destacados", ("#### ",)
+        )
+        if en_targets or es_targets:
+            en_only = sorted(set(en_targets) - set(es_targets))
+            es_only = sorted(set(es_targets) - set(en_targets))
+            if en_only or es_only:
+                fail(
+                    "README EN/ES project mismatch: "
+                    f"only in EN: {en_only}; only in ES: {es_only}"
+                )
+            else:
+                ok(
+                    "README EN/ES project lists match "
+                    f"({len(set(en_targets))} targets)"
+                )
 
     online_fails = 0
     if do_online:

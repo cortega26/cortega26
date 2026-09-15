@@ -86,7 +86,7 @@ Future candidates, explicitly NOT planned yet. Promote via a `plan
 
 | ID | Candidate | Source | Effort | Notes |
 |----|-----------|--------|--------|-------|
-| B1 | Automated EN/ES parity gate (same slugs/targets both lists) | Audit direction #2 | S | Needs an editorial strictness decision first. Natural follow-up to 003. |
+| B1 | Automated EN/ES parity gate (same slugs/targets both lists) | Audit direction #2 | S | RESOLVED 2026-09-15: implemented as smoke.py check 6 (`featured_targets`, exact target-set match per list, skipped when sections absent) + 4 regression tests (19 total). Enforces the AGENTS.md bilingual rule in CI. |
 | B2 | Per-link data freshness checks (e.g. badge versions drifting) | Deferred from 005 | M | Only if Wave-3 watchdog proves its worth. |
 | B3 | Dead-link fixes surfaced by 005's live-fire run | S each | Triage bucket: each fix is its own editorial decision, not a batch. First instance 2026-09-15 (reviewer-verified, deterministic across 2 runs): README EN+ES linked `cortega26/Monedario` → HTTP 404 for anonymous visitors because the repo is now PRIVATE. RESOLVED same day: both entries link `monedario.cl` only (growth Phase 1). (Second live-fire FAIL, a template placeholder in plans/006, already reworded out of link syntax.) |
 | B4 | Profile-wide badge/stats pass (stars, PyPI badges on entries) | Deferred from 006 | S | Deliberately omitted from 006 to match sibling shape; do repo-wide or not at all. |
