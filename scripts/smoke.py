@@ -46,7 +46,7 @@ def main(root):
     failures = []
     md_files = []
     for dirpath, dirnames, filenames in os.walk(root):
-        dirnames[:] = [d for d in dirnames if d != ".git"]
+        dirnames[:] = [d for d in dirnames if d not in (".git", ".codegraph")]
         for fname in filenames:
             if fname.endswith(".md"):
                 md_files.append(os.path.join(dirpath, fname))
@@ -105,8 +105,11 @@ def main(root):
                 elif target.startswith("#"):
                     continue  # same-page anchor; out of scope for a smoke gate
                 else:
+                    path_part = target.split("#", 1)[0]
+                    if not path_part:
+                        continue  # pure "#anchor" on a relative line; same-page anchor
                     resolved = os.path.normpath(
-                        os.path.join(os.path.dirname(fpath), target)
+                        os.path.join(os.path.dirname(fpath), path_part)
                     )
                     if not os.path.exists(resolved):
                         fail(f"{rel}:{lineno}: relative link target missing: {target!r}")
