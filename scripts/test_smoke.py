@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Regression tests for scripts/smoke.py (stdlib only)."""
+import contextlib
 import importlib.util
+import io
 import os
 import subprocess
 import sys
@@ -177,6 +179,26 @@ class OnlineCheckTests(unittest.TestCase):
             no_net = AssertionError("offline path must not touch network")
             with patch("urllib.request.urlopen", side_effect=no_net):
                 self.assertEqual(smoke.main(tmpdir), 1)
+
+    def test_online_failures_counted_in_footer(self):
+        def fake_open(req, timeout=None):
+            if "example.com" in req.full_url:
+                raise http_error(req.full_url, 404)
+            return FakeOnlineResponse(200)
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            make_valid_root(tmpdir)
+            write(
+                os.path.join(tmpdir, "index.md"),
+                "# Index\n\nSee [ok](https://example.com/).\n",
+            )
+            buf = io.StringIO()
+            with patch("urllib.request.urlopen", side_effect=fake_open):
+                with contextlib.redirect_stdout(buf):
+                    rc = smoke.main(tmpdir, True)
+        self.assertEqual(rc, 1)
+        # 0 offline problems + 1 stubbed online FAIL = combined footer.
+        self.assertIn("\nsmoke FAILED: 1 problem(s)", buf.getvalue())
 
 
 if __name__ == "__main__":

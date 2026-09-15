@@ -241,7 +241,8 @@ def main(root, do_online=False):
         online_fails = check_online(http_urls)
 
     if failures or online_fails:
-        print(f"\nsmoke FAILED: {len(failures)} problem(s)")
+        total = len(failures) + online_fails
+        print(f"\nsmoke FAILED: {total} problem(s)")
         return 1
     print("\nsmoke passed")
     return 0
