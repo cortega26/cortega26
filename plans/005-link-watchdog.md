@@ -199,7 +199,7 @@ assert classification:
   same `TestCase` style as plans/002's file.
 - One live-fire run (Step 3) as an integration check — results recorded,
   not asserted (the web moves).
-- Verification: `python3 scripts/test_smoke.py` → `OK`, ≥11 tests.
+- Verification: `python3 scripts/test_smoke.py` → `OK`, ≥14 tests.
 
 ## Done criteria
 

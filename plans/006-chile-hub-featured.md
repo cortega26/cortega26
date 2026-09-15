@@ -38,7 +38,8 @@ repo-first parity rule, fixes that with a two-line diff.
 The facts the executor needs, inlined:
 
 - Featured Projects, English list (`README.md:24-43`): seven entries, each
-  `- [name](https://github.com/cortega26/<repo>) — one-line description.`
+  one bullet per project: link text is the repo name, target is its
+  `github.com/cortega26/…` URL — followed by an em-dash and a one-line description.
   followed by a `  <sub>tags</sub>` line. The second entry
   (`README.md:27-28`):
   ```markdown

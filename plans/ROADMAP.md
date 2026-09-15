@@ -21,13 +21,13 @@ two status tables always drift.
 
 ## Scoreboard
 
-Overall: **4 / 6 plans DONE · 2 / 3 waves complete.**
+Overall: **6 / 6 plans DONE · 3 / 3 waves complete.**
 
 | Wave | Theme | Plans | Done | Status |
 |------|-------|-------|------|--------|
 | 1 | Foundation & safety net | 001 | 1/1 | DONE |
 | 2 | Parallel hardening & hygiene | 002, 003, 004 | 3/3 | DONE |
-| 3 | Compound value | 005, 006 | 0/2 | TODO (unlocked — Wave 2 DONE) |
+| 3 | Compound value | 005, 006 | 2/2 | DONE |
 
 Advance a wave's Status to IN PROGRESS when its first plan starts, DONE when
 all its plans are DONE. If any plan goes BLOCKED, the wave is BLOCKED with
@@ -88,7 +88,7 @@ Future candidates, explicitly NOT planned yet. Promote via a `plan
 |----|-----------|--------|--------|-------|
 | B1 | Automated EN/ES parity gate (same slugs/targets both lists) | Audit direction #2 | S | Needs an editorial strictness decision first. Natural follow-up to 003. |
 | B2 | Per-link data freshness checks (e.g. badge versions drifting) | Deferred from 005 | M | Only if Wave-3 watchdog proves its worth. |
-| B3 | Dead-link fixes surfaced by 005's live-fire run | Unknown until 005 runs | S each | Triage bucket: each fix is its own editorial decision, not a batch. |
+| B3 | Dead-link fixes surfaced by 005's live-fire run | S each | Triage bucket: each fix is its own editorial decision, not a batch. First instance 2026-09-15 (reviewer-verified, deterministic across 2 runs): README EN+ES link `cortega26/Monedario` → HTTP 404 for anonymous visitors because the repo is now PRIVATE (gh: active, pushed 2026-09-15). Proposed: point both Monedario entries at `monedario.cl` — maintainer decision. (Second live-fire FAIL, a template placeholder in plans/006, already reworded out of link syntax.) |
 | B4 | Profile-wide badge/stats pass (stars, PyPI badges on entries) | Deferred from 006 | S | Deliberately omitted from 006 to match sibling shape; do repo-wide or not at all. |
 | B5 | Cross-repo Tooltician badge-compliance checking | Audit rejected for this repo | — | Spans other repos; home is elsewhere (ecosystem tooling), not here. Listed so it isn't re-proposed. |
 

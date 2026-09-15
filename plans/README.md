@@ -25,8 +25,8 @@ plan 001 absorbs that sync; later plans assume it.
 | 002 | Smoke robustness (CLI crash, state, fragments, surface check) | P1 | S | 001 | DONE |
 | 003 | Stale badge paragraph + EN/ES Monedario parity | P2 | S | 001 | DONE |
 | 004 | Remove orphan PNG + AGENTS.md executor guidance | P3 | S | 001 | DONE |
-| 005 | Opt-in online link-rot check (weekly schedule) | P2 | M | 001, 002 | TODO |
-| 006 | Add chile-hub to Featured Projects (EN+ES) | P2 | S | 001, 003 | TODO |
+| 005 | Opt-in online link-rot check (weekly schedule) | P2 | M | 001, 002 | DONE |
+| 006 | Add chile-hub to Featured Projects (EN+ES) | P2 | S | 001, 003 | DONE |
 
 Status values: TODO | IN PROGRESS | DONE | BLOCKED (with one-line reason) | REJECTED (with one-line rationale — finding fixed independently or approach abandoned)
 
