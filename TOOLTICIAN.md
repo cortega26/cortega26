@@ -7,9 +7,9 @@ al crear, migrar o actualizar el README de cualquier proyecto del ecosistema.
 
 ### Badge universal (SVG centralizado por idioma)
 
-SVGs servidos estáticamente desde `tooltician.com/public/`. Cada idioma tiene su propio
-archivo SVG con el texto localizado. Para cambiar el diseño se actualizan solo los SVGs
-y se refleja en todos los proyectos al desplegar.
+Badges servidos vía `img.shields.io` (fuente canónica desde `cb3de7b`).
+Cada idioma tiene su propio snippet abajo. Para cambiar el diseño se actualizan
+los snippets en este archivo y se refleja en todos los proyectos al adoptarlos.
 
 **Español (por defecto):**
 
