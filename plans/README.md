@@ -22,9 +22,9 @@ plan 001 absorbs that sync; later plans assume it.
 | Plan | Title | Priority | Effort | Depends on | Status |
 |------|-------|----------|--------|------------|--------|
 | 001 | Commit smoke gate + CI | P1 | S | — | DONE |
-| 002 | Smoke robustness (`--root` crash, state reset, fragments) | P1 | S | 001 | TODO |
-| 003 | Stale badge paragraph + EN/ES Monedario parity | P2 | S | 001 | TODO |
-| 004 | Remove orphan PNG + AGENTS.md executor guidance | P3 | S | 001 | TODO |
+| 002 | Smoke robustness (CLI crash, state, fragments, surface check) | P1 | S | 001 | DONE |
+| 003 | Stale badge paragraph + EN/ES Monedario parity | P2 | S | 001 | DONE |
+| 004 | Remove orphan PNG + AGENTS.md executor guidance | P3 | S | 001 | DONE |
 | 005 | Opt-in online link-rot check (weekly schedule) | P2 | M | 001, 002 | TODO |
 | 006 | Add chile-hub to Featured Projects (EN+ES) | P2 | S | 001, 003 | TODO |
 

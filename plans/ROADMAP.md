@@ -21,13 +21,13 @@ two status tables always drift.
 
 ## Scoreboard
 
-Overall: **1 / 6 plans DONE · 1 / 3 waves complete.**
+Overall: **4 / 6 plans DONE · 2 / 3 waves complete.**
 
 | Wave | Theme | Plans | Done | Status |
 |------|-------|-------|------|--------|
 | 1 | Foundation & safety net | 001 | 1/1 | DONE |
-| 2 | Parallel hardening & hygiene | 002, 003, 004 | 0/3 | TODO (unlocked — Wave 1 DONE) |
-| 3 | Compound value | 005, 006 | 0/2 | TODO (locked until Wave 2 DONE) |
+| 2 | Parallel hardening & hygiene | 002, 003, 004 | 3/3 | DONE |
+| 3 | Compound value | 005, 006 | 0/2 | TODO (unlocked — Wave 2 DONE) |
 
 Advance a wave's Status to IN PROGRESS when its first plan starts, DONE when
 all its plans are DONE. If any plan goes BLOCKED, the wave is BLOCKED with

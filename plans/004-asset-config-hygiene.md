@@ -155,7 +155,7 @@ publish agent-tooling config the maintainer chose to keep local. The Step-2
 note makes the choice explicit instead of mysterious. No command to run;
 state the decision in your final report.
 
-**Verify**: `git diff --name-only cb3de7b...HEAD` lists only
+**Verify**: `git diff --name-only main...HEAD` lists only
 `indicadores.png` (as deletion) and `AGENTS.md`.
 
 ## Test plan
