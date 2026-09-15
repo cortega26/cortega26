@@ -1,6 +1,6 @@
 # Carlos Ortega — Python Automation & Data Systems
 
-I build production-ready Python systems for real operational work: ETL pipelines, scraping workflows, internal APIs, and reporting automation. I care about correctness, observability, clear documentation, and handoff quality. Bilingual in English and Spanish. Open to freelance projects and technical collaborations.
+I build production Python systems for real operational work — ETL pipelines, scraping workflows, internal APIs, and reporting automation — with CI, docs, and audit trails included. Currently accepting freelance projects for Q4 2026.
 
 [Portfolio](https://tooltician.com/) · [LinkedIn](https://www.linkedin.com/in/cortega26) · [Email](mailto:carlosortega77@gmail.com) · [Monedario](https://monedario.cl/) · [Noticiencias](https://www.noticiencias.com/)
 
@@ -12,12 +12,10 @@ I build production-ready Python systems for real operational work: ETL pipelines
 
 ## Proof Signals
 
-- Public repos with CI, documentation, and production-minded packaging.
-- Published Python packages on PyPI, including `rutificador` and `bankrecon`.
-- Automation projects designed for reliability, auditability, and long-term maintainability.
-- Live public work, including the Tooltician portfolio, Monedario, and the Noticiencias frontend.
-
-> **Branding del ecosistema:** Consulta [`TOOLTICIAN.md`](TOOLTICIAN.md) para el badge, taglines por idioma y footer canónico de los proyectos Tooltician.
+- 3 PyPI packages: [`rutificador`](https://pypi.org/project/rutificador/), [`bankrecon`](https://pypi.org/project/bankrecon/) (v0.2.14, MIT), [`chile-hub`](https://pypi.org/project/chile-hub/).
+- Flagship repo [`chile-hub`](https://github.com/cortega26/chile-hub) (79★) with CI/CD, docs, and one-line data access via Polars, DuckDB, SQLite, and Excel.
+- 8 public repos built to production standard: CI, documentation, and packaging.
+- Live client-grade sites: [Tooltician portfolio](https://tooltician.com/), [Monedario](https://monedario.cl/), [Noticiencias](https://www.noticiencias.com/).
 
 ## Featured Projects
 
@@ -33,7 +31,7 @@ I build production-ready Python systems for real operational work: ETL pipelines
 - [noticiencias](https://github.com/cortega26/noticiencias) — science-news frontend focused on readability, accessibility, and SEO.
   <sub>Astro · Static site · Accessibility · SEO · Multilingual</sub>
 
-- [Monedario](https://github.com/cortega26/Monedario) — Chile-focused personal finance education site with practical calculators, evergreen guides, and editorial governance. [Site](https://monedario.cl/)
+- [Monedario](https://monedario.cl/) — Chile-focused personal finance education site with practical calculators, evergreen guides, and editorial governance.
   <sub>Astro · TypeScript · Personal finance · Calculators · Content systems</sub>
 
 - [polla](https://github.com/cortega26/polla) — reliable jackpot ingestion workflow with deterministic fallbacks and Google Sheets publishing.
@@ -67,7 +65,7 @@ The fastest way to understand my work is through [tooltician.com](https://toolti
 
 ### Hola, soy Carlos
 
-Construyo sistemas en Python listos para producción: pipelines ETL, scrapers, APIs internas y automatización de reportes. Priorizo corrección, observabilidad, documentación clara y calidad de entrega. Hablo español e inglés. Abierto a proyectos freelance y colaboraciones técnicas.
+Construyo sistemas en Python listos para producción: pipelines ETL, scrapers, APIs internas y automatización de reportes. Priorizo corrección, observabilidad, documentación clara y calidad de entrega. Hablo español e inglés. Actualmente acepto proyectos freelance para Q4 2026 y colaboraciones técnicas.
 
 #### Enlaces
 
@@ -79,7 +77,7 @@ Construyo sistemas en Python listos para producción: pipelines ETL, scrapers, A
 - [conciliador_bancario](https://github.com/cortega26/conciliador_bancario) — CLI de conciliación bancaria con enfoque fail-closed y trazabilidad.
 - [chile-hub](https://github.com/cortega26/chile-hub) — datos públicos de Chile curados, normalizados y validados, listos para consumir en una línea de código con Polars, DuckDB, SQLite y Excel.
 - [noticiencias](https://github.com/cortega26/noticiencias) — frontend de noticias científicas optimizado para legibilidad y SEO.
-- [Monedario](https://github.com/cortega26/Monedario) — sitio educativo de finanzas personales para Chile con calculadoras prácticas, guías evergreen y gobernanza editorial. [Sitio](https://monedario.cl/)
+- [Monedario](https://monedario.cl/) — sitio educativo de finanzas personales para Chile con calculadoras prácticas, guías evergreen y gobernanza editorial.
 - [polla](https://github.com/cortega26/polla) — flujo confiable de ingesta de pozos con fallbacks determinísticos.
 - [PDF-Text-Analyzer](https://github.com/cortega26/PDF-Text-Analyzer) — toolkit para extraer, buscar y analizar PDFs multilingües.
 - [crypto-price-tracker](https://github.com/cortega26/crypto-price-tracker) — monitor en tiempo real con alertas configurables.
