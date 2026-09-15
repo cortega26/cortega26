@@ -7,7 +7,7 @@
 > in `plans/README.md` — unless a reviewer dispatched you and told you they
 > maintain the index.
 >
-> **Drift check (run first)**: `git diff --stat cb3de7b..HEAD -- README.md`
+> **Drift check (run first)**: `git diff --stat 4ec3654..HEAD -- README.md`
 > If README.md changed since this plan was written, compare the "Current
 > state" excerpts against the live file before proceeding; on a mismatch,
 > treat it as a STOP condition.
