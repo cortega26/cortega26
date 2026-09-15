@@ -27,6 +27,9 @@ I build production-ready Python systems for real operational work: ETL pipelines
 - [conciliador_bancario](https://github.com/cortega26/conciliador_bancario) — fail-closed bank reconciliation CLI with deterministic outputs and audit artifacts.
   <sub>Python · CLI · Auditability · PyPI · Architecture docs</sub>
 
+- [chile-hub](https://github.com/cortega26/chile-hub) — curated, validated Chilean open datasets (geography, demographics, economy, health, education) consumable in one line with Polars, DuckDB, SQLite and Excel.
+  <sub>Python · PyPI · CI/CD · Open data · 22 datasets</sub>
+
 - [noticiencias](https://github.com/cortega26/noticiencias) — science-news frontend focused on readability, accessibility, and SEO.
   <sub>Astro · Static site · Accessibility · SEO · Multilingual</sub>
 
@@ -74,6 +77,7 @@ Construyo sistemas en Python listos para producción: pipelines ETL, scrapers, A
 
 - [rutificador](https://github.com/cortega26/rutificador) — librería y CLI para validar y formatear RUTs chilenos.
 - [conciliador_bancario](https://github.com/cortega26/conciliador_bancario) — CLI de conciliación bancaria con enfoque fail-closed y trazabilidad.
+- [chile-hub](https://github.com/cortega26/chile-hub) — datos públicos de Chile curados, normalizados y validados, listos para consumir en una línea de código con Polars, DuckDB, SQLite y Excel.
 - [noticiencias](https://github.com/cortega26/noticiencias) — frontend de noticias científicas optimizado para legibilidad y SEO.
 - [Monedario](https://github.com/cortega26/Monedario) — sitio educativo de finanzas personales para Chile con calculadoras prácticas, guías evergreen y gobernanza editorial. [Sitio](https://monedario.cl/)
 - [polla](https://github.com/cortega26/polla) — flujo confiable de ingesta de pozos con fallbacks determinísticos.
