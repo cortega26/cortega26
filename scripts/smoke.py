@@ -42,6 +42,8 @@ def ok(label):
 
 
 def main(root):
+    global failures
+    failures = []
     md_files = []
     for dirpath, dirnames, filenames in os.walk(root):
         dirnames[:] = [d for d in dirnames if d != ".git"]
@@ -133,5 +135,9 @@ def main(root):
 if __name__ == "__main__":
     root = REPO_ROOT
     if "--root" in sys.argv:
-        root = sys.argv[sys.argv.index("--root") + 1]
+        idx = sys.argv.index("--root")
+        if idx + 1 >= len(sys.argv):
+            print("usage: python3 scripts/smoke.py [--root PATH]", file=sys.stderr)
+            sys.exit(2)
+        root = sys.argv[idx + 1]
     sys.exit(main(root))
