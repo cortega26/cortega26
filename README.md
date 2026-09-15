@@ -30,7 +30,7 @@ I build production-ready Python systems for real operational work: ETL pipelines
 - [noticiencias](https://github.com/cortega26/noticiencias) — science-news frontend focused on readability, accessibility, and SEO.
   <sub>Astro · Static site · Accessibility · SEO · Multilingual</sub>
 
-- [Monedario](https://monedario.cl) — Chile-focused personal finance education site with practical calculators, evergreen guides, and editorial governance.
+- [Monedario](https://github.com/cortega26/Monedario) — Chile-focused personal finance education site with practical calculators, evergreen guides, and editorial governance. [Site](https://monedario.cl/)
   <sub>Astro · TypeScript · Personal finance · Calculators · Content systems</sub>
 
 - [polla](https://github.com/cortega26/polla) — reliable jackpot ingestion workflow with deterministic fallbacks and Google Sheets publishing.
@@ -75,7 +75,7 @@ Construyo sistemas en Python listos para producción: pipelines ETL, scrapers, A
 - [rutificador](https://github.com/cortega26/rutificador) — librería y CLI para validar y formatear RUTs chilenos.
 - [conciliador_bancario](https://github.com/cortega26/conciliador_bancario) — CLI de conciliación bancaria con enfoque fail-closed y trazabilidad.
 - [noticiencias](https://github.com/cortega26/noticiencias) — frontend de noticias científicas optimizado para legibilidad y SEO.
-- [Monedario](https://github.com/cortega26/tuplatainforma) — sitio educativo de finanzas personales para Chile con calculadoras prácticas, guías evergreen y gobernanza editorial. [Sitio](https://monedario.cl/)
+- [Monedario](https://github.com/cortega26/Monedario) — sitio educativo de finanzas personales para Chile con calculadoras prácticas, guías evergreen y gobernanza editorial. [Sitio](https://monedario.cl/)
 - [polla](https://github.com/cortega26/polla) — flujo confiable de ingesta de pozos con fallbacks determinísticos.
 - [PDF-Text-Analyzer](https://github.com/cortega26/PDF-Text-Analyzer) — toolkit para extraer, buscar y analizar PDFs multilingües.
 - [crypto-price-tracker](https://github.com/cortega26/crypto-price-tracker) — monitor en tiempo real con alertas configurables.
