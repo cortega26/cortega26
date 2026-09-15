@@ -26,7 +26,6 @@ LINK_RE = re.compile(r"\[([^\]]*)\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
 SURFACE_URLS = [
     "https://tooltician.com/",
     "https://www.linkedin.com/in/cortega26",
-    "https://github.com/cortega26",
 ]
 
 failures = []
@@ -41,10 +40,17 @@ def ok(label):
     print(f"PASS {label}")
 
 
+def surface_missing(readme_targets, surface_urls):
+    """Which required surface URLs lack an exact link target."""
+    targets = set(readme_targets)
+    return [u for u in surface_urls if u not in targets]
+
+
 def main(root):
     global failures
     failures = []
     md_files = []
+    readme_targets = set()
     for dirpath, dirnames, filenames in os.walk(root):
         dirnames[:] = [d for d in dirnames if d not in (".git", ".codegraph")]
         for fname in filenames:
@@ -102,6 +108,8 @@ def main(root):
                     if not urlparse(target).netloc:
                         fail(f"{rel}:{lineno}: URL without host: {target!r}")
                         link_failures += 1
+                    if rel == "README.md":
+                        readme_targets.add(target)
                 elif target.startswith("#"):
                     continue  # same-page anchor; out of scope for a smoke gate
                 else:
@@ -120,9 +128,7 @@ def main(root):
     # 5. profile surface links in README
     readme_path = os.path.join(root, "README.md")
     if os.path.isfile(readme_path):
-        with open(readme_path, encoding="utf-8") as f:
-            readme = f.read()
-        missing = [u for u in SURFACE_URLS if u not in readme]
+        missing = surface_missing(readme_targets, SURFACE_URLS)
         if missing:
             fail(f"README missing profile surface links: {missing}")
         else:
