@@ -1,0 +1,15 @@
+name: online-links
+on:
+  schedule:
+    - cron: "23 6 * * 1"  # weekly, Monday 06:23 UTC
+  workflow_dispatch:
+jobs:
+  online:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: External link liveness (warnings allowed, failures fail)
+        run: python3 scripts/smoke.py --check-online

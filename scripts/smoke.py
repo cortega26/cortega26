@@ -2,7 +2,7 @@
 """Profile-surface smoke check for the github-profile repo (stdlib only).
 
 Gates the only thing this repo ships: profile markdown + its link surface.
-Run:  python3 scripts/smoke.py [--root PATH]
+Run:  python3 scripts/smoke.py [--root PATH] [--check-online]
 
 Checks:
   1. README.md and TOOLTICIAN.md exist.
@@ -12,11 +12,14 @@ Checks:
   4. Relative links resolve to a file on disk.
   5. README keeps the profile surface links (portfolio, LinkedIn, GitHub).
 
-Exit 0 when all checks pass, 1 otherwise. No network access, no deps.
+Exit 0 when all checks pass, 1 otherwise. No network access unless
+`--check-online` is passed, no deps.
 """
 import os
 import re
 import sys
+import urllib.error
+import urllib.request
 from urllib.parse import urlparse
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -29,6 +32,10 @@ SURFACE_URLS = [
 ]
 
 failures = []
+
+ONLINE_USER_AGENT = "github-profile-smoke (+https://tooltician.com/)"
+ONLINE_TIMEOUT = 10
+ONLINE_MAX_BYTES = 8192
 
 
 def fail(msg):
@@ -46,7 +53,99 @@ def surface_missing(readme_targets, surface_urls):
     return [u for u in surface_urls if u not in targets]
 
 
-def main(root):
+def classify_http_status(url, code):
+    """WARN for known bot-blockers/rate-limiters, FAIL otherwise.
+
+    WARN: linkedin.com 403/999, any host 403/429, any img.shields.io
+    non-2xx (badge CDN rate-limits bots). Everything else non-2xx FAILs.
+    """
+    host = urlparse(url).netloc.lower()
+    if host == "img.shields.io":
+        return "WARN"
+    if code in (403, 429):
+        return "WARN"
+    if code == 999 and (host == "linkedin.com" or host.endswith(".linkedin.com")):
+        return "WARN"
+    return "FAIL"
+
+
+def _response_code(resp):
+    code = getattr(resp, "status", None)
+    if code is None:
+        try:
+            code = resp.getcode()
+        except Exception:
+            code = None
+    return code
+
+
+def _fetch_once(url, method):
+    """Single HTTP attempt. Returns (code, detail); raises on network error."""
+    req = urllib.request.Request(
+        url, method=method, headers={"User-Agent": ONLINE_USER_AGENT}
+    )
+    with urllib.request.urlopen(req, timeout=ONLINE_TIMEOUT) as resp:
+        if method == "GET":
+            resp.read(ONLINE_MAX_BYTES)
+        code = _response_code(resp)
+        if code is None:
+            return 200, "HTTP 200"
+        return code, f"HTTP {code}"
+
+
+def check_one_url(url):
+    """Check a single URL. Returns (status, detail) with status OK/WARN/FAIL."""
+    try:
+        code, detail = _fetch_once(url, "HEAD")
+    except urllib.error.HTTPError as e:
+        if e.code in (405, 501) or 500 <= e.code <= 599:
+            pass  # fall through to GET retry below
+        else:
+            return classify_http_status(url, e.code), f"HTTP {e.code}"
+    except (urllib.error.URLError, TimeoutError, OSError) as e:
+        reason = getattr(e, "reason", e)
+        return "FAIL", f"{type(e).__name__}: {reason}"
+    except Exception as e:  # one bad URL must not crash the whole run
+        return "FAIL", f"{type(e).__name__}: {e}"
+    else:
+        if 200 <= code < 300:
+            return "OK", detail
+        if code in (405, 501) or 500 <= code <= 599:
+            pass  # HEAD unsupported or server error: retry with GET
+        else:
+            return classify_http_status(url, code), detail
+    # GET retry (HEAD unsupported or HEAD drew a 5xx): range-limited read.
+    try:
+        code, detail = _fetch_once(url, "GET")
+    except urllib.error.HTTPError as e:
+        return classify_http_status(url, e.code), f"HTTP {e.code}"
+    except (urllib.error.URLError, TimeoutError, OSError) as e:
+        reason = getattr(e, "reason", e)
+        return "FAIL", f"{type(e).__name__}: {reason}"
+    except Exception as e:
+        return "FAIL", f"{type(e).__name__}: {e}"
+    if 200 <= code < 300:
+        return "OK", detail
+    return classify_http_status(url, code), detail
+
+
+def check_online(urls):
+    """Check external URLs, print per-URL lines + summary. Returns fail count."""
+    n_ok = n_warn = n_fail = 0
+    for url in sorted(urls):
+        status, detail = check_one_url(url)
+        print(f"ONLINE {status} {url} ({detail})")
+        if status == "OK":
+            n_ok += 1
+        elif status == "WARN":
+            n_warn += 1
+        else:
+            n_fail += 1
+    print(f"online: {n_ok} ok, {n_warn} warn, {n_fail} fail")
+    return n_fail
+
+
+def main(root, do_online=False):
     global failures
     failures = []
     md_files = []
@@ -134,7 +233,14 @@ def main(root):
         else:
             ok("README keeps portfolio/LinkedIn/GitHub surface links")
 
-    if failures:
+    online_fails = 0
+    if do_online:
+        http_urls = [
+            u for u in all_urls if u.startswith(("http://", "https://"))
+        ]
+        online_fails = check_online(http_urls)
+
+    if failures or online_fails:
         print(f"\nsmoke FAILED: {len(failures)} problem(s)")
         return 1
     print("\nsmoke passed")
@@ -146,7 +252,11 @@ if __name__ == "__main__":
     if "--root" in sys.argv:
         idx = sys.argv.index("--root")
         if idx + 1 >= len(sys.argv):
-            print("usage: python3 scripts/smoke.py [--root PATH]", file=sys.stderr)
+            print(
+                "usage: python3 scripts/smoke.py [--root PATH] [--check-online]",
+                file=sys.stderr,
+            )
             sys.exit(2)
         root = sys.argv[idx + 1]
-    sys.exit(main(root))
+    do_online = "--check-online" in sys.argv
+    sys.exit(main(root, do_online))

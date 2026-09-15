@@ -6,6 +6,8 @@ import subprocess
 import sys
 import tempfile
 import unittest
+import urllib.error
+from unittest.mock import patch
 
 SMOKE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "smoke.py")
 
@@ -104,6 +106,77 @@ class SmokeRegressionTests(unittest.TestCase):
     def test_surface_missing_empty_targets(self):
         missing = smoke.surface_missing(set(), smoke.SURFACE_URLS)
         self.assertEqual(missing, list(smoke.SURFACE_URLS))
+
+
+class FakeOnlineResponse:
+    """Minimal urlopen context manager stub (status + range-limited read)."""
+
+    def __init__(self, code=200):
+        self.status = code
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *args):
+        return False
+
+    def read(self, n=-1):
+        return b"x" * 8
+
+    def getcode(self):
+        return self.status
+
+
+def http_error(url, code):
+    return urllib.error.HTTPError(url, code, f"HTTP {code}", None, None)
+
+
+class OnlineCheckTests(unittest.TestCase):
+    def test_online_200_is_ok(self):
+        with patch("urllib.request.urlopen", return_value=FakeOnlineResponse(200)):
+            status, _detail = smoke.check_one_url("https://example.com/")
+        self.assertEqual(status, "OK")
+
+    def test_online_404_is_fail(self):
+        err404 = http_error("https://example.com/nope", 404)
+        with patch("urllib.request.urlopen", side_effect=err404):
+            status, _detail = smoke.check_one_url("https://example.com/nope")
+        self.assertEqual(status, "FAIL")
+
+    def test_online_linkedin_403_is_warn(self):
+        # LinkedIn blocks bots; must never fail the job.
+        err403 = http_error("https://www.linkedin.com/in/cortega26", 403)
+        with patch("urllib.request.urlopen", side_effect=err403):
+            status, _detail = smoke.check_one_url("https://www.linkedin.com/in/cortega26")
+        self.assertEqual(status, "WARN")
+
+    def test_online_dns_error_is_fail(self):
+        dns_err = urllib.error.URLError("Name or service not known")
+        with patch("urllib.request.urlopen", side_effect=dns_err):
+            status, _detail = smoke.check_one_url("https://nonexistent.invalid/")
+        self.assertEqual(status, "FAIL")
+
+    def test_online_head_405_falls_back_to_get(self):
+        def fake_open(req, timeout=None):
+            if req.get_method() == "HEAD":
+                raise http_error(req.full_url, 405)
+            return FakeOnlineResponse(200)
+
+        with patch("urllib.request.urlopen", side_effect=fake_open) as m:
+            status, _detail = smoke.check_one_url("https://example.com/")
+        self.assertEqual(status, "OK")
+        self.assertEqual(m.call_count, 2)
+
+    def test_offline_main_ignores_online_without_network(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            make_valid_root(tmpdir)
+            write(
+                os.path.join(tmpdir, "index.md"),
+                "# Index\n\nSee [ok](https://example.com/) and [gone](nope.md).\n",
+            )
+            no_net = AssertionError("offline path must not touch network")
+            with patch("urllib.request.urlopen", side_effect=no_net):
+                self.assertEqual(smoke.main(tmpdir), 1)
 
 
 if __name__ == "__main__":
