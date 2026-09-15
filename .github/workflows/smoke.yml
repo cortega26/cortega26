@@ -15,3 +15,5 @@ jobs:
           python-version: "3.13"
       - name: Profile-surface smoke check
         run: python3 scripts/smoke.py
+      - name: smoke regression tests
+        run: python3 scripts/test_smoke.py
