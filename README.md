@@ -19,44 +19,44 @@ I build production Python systems for real operational work — ETL pipelines, s
 
 ## Featured Projects
 
-- [rutificador](https://github.com/cortega26/rutificador) — Python library and CLI for validating and formatting Chilean RUTs.
-  <sub>Python · PyPI · CI/CD · CodeQL · Batch processing</sub>
-
-- [conciliador_bancario](https://github.com/cortega26/conciliador_bancario) — fail-closed bank reconciliation CLI with deterministic outputs and audit artifacts.
-  <sub>Python · CLI · Auditability · PyPI · Architecture docs</sub>
-
-- [chile-hub](https://github.com/cortega26/chile-hub) — curated, validated Chilean open datasets (geography, demographics, economy, health, education) consumable in one line with Polars, DuckDB, SQLite and Excel.
+- [chile-hub](https://github.com/cortega26/chile-hub) — curated, validated Chilean open datasets — geography, demographics, economy, health, education — loadable in one line with Polars, DuckDB, SQLite, and Excel. Built so analysts skip the cleaning and start analyzing.
   <sub>Python · PyPI · CI/CD · Open data · 22 datasets</sub>
 
-- [noticiencias](https://github.com/cortega26/noticiencias) — science-news frontend focused on readability, accessibility, and SEO.
-  <sub>Astro · Static site · Accessibility · SEO · Multilingual</sub>
+- [conciliador_bancario](https://github.com/cortega26/conciliador_bancario) — fail-closed bank reconciliation CLI with deterministic outputs and audit artifacts for a month-end close you can defend. Install with `pip install bankrecon`.
+  <sub>Python · CLI · Auditability · PyPI · Architecture docs</sub>
 
-- [Monedario](https://monedario.cl/) — Chile-focused personal finance education site with practical calculators, evergreen guides, and editorial governance.
+- [rutificador](https://github.com/cortega26/rutificador) — Python library and CLI for validating and formatting Chilean RUTs: the unglamorous input validation every Chilean form and ETL pipeline needs.
+  <sub>Python · PyPI · CI/CD · CodeQL · Batch processing</sub>
+
+- [Monedario](https://monedario.cl/) — Chile-focused personal finance education: practical calculators, evergreen guides, and editorial governance for readers making real money decisions.
   <sub>Astro · TypeScript · Personal finance · Calculators · Content systems</sub>
 
-- [polla](https://github.com/cortega26/polla) — reliable jackpot ingestion workflow with deterministic fallbacks and Google Sheets publishing.
+- [polla](https://github.com/cortega26/polla) — reliable jackpot ingestion workflow with deterministic fallbacks and Google Sheets publishing: scheduled data delivery without babysitting.
   <sub>Python · Web scraping · Observability · Google Sheets API</sub>
 
-- [PDF-Text-Analyzer](https://github.com/cortega26/PDF-Text-Analyzer) — multilingual PDF extraction, search, and analysis toolkit.
+- [PDF-Text-Analyzer](https://github.com/cortega26/PDF-Text-Analyzer) — multilingual PDF extraction, search, and analysis toolkit for turning document piles into searchable text.
   <sub>Python · PDF processing · Text analysis · Search</sub>
 
-- [crypto-price-tracker](https://github.com/cortega26/crypto-price-tracker) — real-time crypto monitor with configurable alerts and GUI-based setup.
+- [noticiencias](https://github.com/cortega26/noticiencias) — science-news frontend focused on readability, accessibility, and SEO: built for readers, tuned for search.
+  <sub>Astro · Static site · Accessibility · SEO · Multilingual</sub>
+
+- [crypto-price-tracker](https://github.com/cortega26/crypto-price-tracker) — real-time crypto monitor with configurable alerts and GUI-based setup for non-technical users.
   <sub>Python · WebSocket · Alerts · Desktop workflow</sub>
 
 ## Working Style
 
-- Clear scope and explicit assumptions before implementation.
-- Systems that are testable, observable, and readable by the next maintainer.
-- Interfaces and docs that reduce cognitive load for operators and collaborators.
+- Fixed scope and explicit assumptions before any code — no open-ended billing.
+- Testable, observable systems your next maintainer will understand.
+- Interfaces and handoff docs included — no black boxes.
 
 ## Skills
 
-**Languages & Tools:** Python, SQL, Bash, JavaScript (working knowledge)
-**Frameworks & Libraries:** FastAPI, Selenium, BeautifulSoup, Pandas, NLTK
-**Infra & Delivery:** GitHub Actions, Docker, CI/CD, CodeQL, package publishing
-**Focus Areas:** ETL, automation, scraping, text analysis, internal tooling
+**Hire me for:** Python, SQL, FastAPI · ETL, automation, scraping, text analysis · CI/CD, Docker, package publishing
+**Supporting:** Bash, JavaScript (working knowledge), Selenium, BeautifulSoup, Pandas, NLTK, CodeQL
 
 ## Contact
+
+Currently accepting freelance projects for Q4 2026 — fastest contact is email.
 
 The fastest way to understand my work is through [tooltician.com](https://tooltician.com/). If you have a project in mind, email me at [carlosortega77@gmail.com](mailto:carlosortega77@gmail.com) or reach out on [LinkedIn](https://www.linkedin.com/in/cortega26).
 
@@ -73,19 +73,19 @@ Construyo sistemas en Python listos para producción: pipelines ETL, scrapers, A
 
 #### Proyectos destacados
 
-- [rutificador](https://github.com/cortega26/rutificador) — librería y CLI para validar y formatear RUTs chilenos.
-- [conciliador_bancario](https://github.com/cortega26/conciliador_bancario) — CLI de conciliación bancaria con enfoque fail-closed y trazabilidad.
 - [chile-hub](https://github.com/cortega26/chile-hub) — datos públicos de Chile curados, normalizados y validados, listos para consumir en una línea de código con Polars, DuckDB, SQLite y Excel.
-- [noticiencias](https://github.com/cortega26/noticiencias) — frontend de noticias científicas optimizado para legibilidad y SEO.
+- [conciliador_bancario](https://github.com/cortega26/conciliador_bancario) — CLI de conciliación bancaria con enfoque fail-closed y trazabilidad. Instálalo con `pip install bankrecon`.
+- [rutificador](https://github.com/cortega26/rutificador) — librería y CLI para validar y formatear RUTs chilenos.
 - [Monedario](https://monedario.cl/) — sitio educativo de finanzas personales para Chile con calculadoras prácticas, guías evergreen y gobernanza editorial.
 - [polla](https://github.com/cortega26/polla) — flujo confiable de ingesta de pozos con fallbacks determinísticos.
 - [PDF-Text-Analyzer](https://github.com/cortega26/PDF-Text-Analyzer) — toolkit para extraer, buscar y analizar PDFs multilingües.
+- [noticiencias](https://github.com/cortega26/noticiencias) — frontend de noticias científicas optimizado para legibilidad y SEO.
 - [crypto-price-tracker](https://github.com/cortega26/crypto-price-tracker) — monitor en tiempo real con alertas configurables.
 
 #### Qué me importa
 
-- Alcance claro y supuestos explícitos antes de programar.
-- Código testeable, observable y mantenible.
-- Herramientas y documentación que le hagan la vida más fácil al siguiente operador.
+- Alcance fijo y supuestos explícitos antes de programar — sin facturación abierta.
+- Código testeable y observable que tu próximo mantenedor entenderá.
+- Interfaces y documentación de entrega incluidas — sin cajas negras.
 
 </details>
