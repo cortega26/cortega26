@@ -1,6 +1,6 @@
 # Carlos Ortega — Python Automation & Data Systems
 
-I build production Python systems for real operational work — ETL pipelines, scraping workflows, internal APIs, and reporting automation — with CI, docs, and audit trails included. Currently accepting freelance projects for Q4 2026.
+I build production Python systems for real operational work, ETL pipelines, scraping workflows, internal APIs, and reporting automation, with CI, docs, and audit trails included. Currently accepting freelance projects for Q4 2026.
 
 [Portfolio](https://tooltician.com/) · [LinkedIn](https://www.linkedin.com/in/cortega26) · [Email](mailto:carlosortega77@gmail.com) · [Monedario](https://monedario.cl/) · [Noticiencias](https://www.noticiencias.com/)
 
