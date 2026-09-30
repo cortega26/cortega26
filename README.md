@@ -13,7 +13,7 @@ I build production Python systems for real operational work — ETL pipelines, s
 ## Proof Signals
 
 - 3 PyPI packages: [`rutificador`](https://pypi.org/project/rutificador/), [`bankrecon`](https://pypi.org/project/bankrecon/) (v0.2.14, MIT), [`chile-hub`](https://pypi.org/project/chile-hub/).
-- Flagship repo [`chile-hub`](https://github.com/cortega26/chile-hub) (104★) with CI/CD, docs, and one-line data access via Polars, DuckDB, SQLite, and Excel.
+- Flagship repo [`chile-hub`](https://github.com/cortega26/chile-hub) (112★) with CI/CD, docs, and one-line data access via Polars, DuckDB, SQLite, and Excel.
 - 8 public repos built to production standard: CI, documentation, and packaging.
 - Live client-grade sites: [Tooltician portfolio](https://tooltician.com/), [Monedario](https://monedario.cl/), [Noticiencias](https://www.noticiencias.com/).
 
