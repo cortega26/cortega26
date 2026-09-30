@@ -58,7 +58,7 @@ I build production Python systems for real operational work, ETL pipelines, scra
 
 Currently accepting freelance projects for Q4 2026 — fastest contact is email.
 
-The fastest way to understand my work is through [tooltician.com](https://tooltician.com/). If you have a project in mind, email me at [carlosortega77@gmail.com](mailto:carlosortega77@gmail.com) or reach out on [LinkedIn](https://www.linkedin.com/in/cortega26).
+The fastest way to understand my work is through [tooltician.com](https://tooltician.com/). If you have a project in mind, email me at [carlos@tooltician.com](mailto:carlos@tooltician.com) or reach out on [LinkedIn](https://www.linkedin.com/in/cortega26).
 
 <details>
   <summary>ESPAÑOL — Resumen breve</summary>
