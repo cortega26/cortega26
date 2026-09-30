@@ -69,7 +69,7 @@ Construyo sistemas en Python listos para producción: pipelines ETL, scrapers, A
 
 #### Enlaces
 
-[Portafolio](https://tooltician.com/) · [LinkedIn](https://www.linkedin.com/in/cortega26) · [GitHub](https://github.com/cortega26) · [Correo](mailto:carlosortega77@gmail.com)
+[Portafolio](https://tooltician.com/) · [LinkedIn](https://www.linkedin.com/in/cortega26) · [GitHub](https://github.com/cortega26) · [Correo](mailto:carlos@tooltician.com)
 
 #### Proyectos destacados
 
