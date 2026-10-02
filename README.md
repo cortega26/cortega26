@@ -1,6 +1,6 @@
 # Carlos Ortega González
 
-**Software Engineer · Data Systems & Automation · ETL · APIs · Reconciliation · Open-Source Maintainer**
+**Data Systems & Automation · ETL · APIs · Reconciliation · Open-Source Maintainer**
 
 I build production systems around messy real-world data: ingestion and ETL pipelines, reconciliation tooling, APIs, scraping, scheduled automation, and reporting. I care about deterministic behavior, observable failures, clear contracts, and audit trails another engineer can actually follow.
 
