@@ -1,85 +1,112 @@
 # Carlos Ortega González
 
-**Data Systems & Automation · ETL · APIs · Reconciliation · Open-Source Maintainer**
+**Python Engineer · Data Systems & Automation · ETL · APIs · Reconciliation**
 
-I build production systems around messy real-world data: ingestion and ETL pipelines, reconciliation tooling, APIs, scraping, scheduled automation, and reporting. I care about deterministic behavior, observable failures, clear contracts, and audit trails another engineer can actually follow.
+> I build systems for messy real-world data — where sources drift, inputs disagree, and a silent wrong answer is worse than a loud failure.
 
-Santiago, Chile · Spanish (native) · English (C2) · Open to **100% remote Python / Data / Backend roles** across LATAM and US-compatible teams, plus selected consulting work.
+**Open to:** 100% remote Python / Data / Backend roles across LATAM and US-compatible teams · selected consulting work.
 
 [Portfolio](https://tooltician.com/) · [LinkedIn](https://www.linkedin.com/in/cortega26) · [Email](mailto:carlos@tooltician.com)
 
-## What I Build
+## What I Optimize For
 
-| Area | Typical work |
+Reliable software is not just code that works on the happy path. I focus on systems that remain understandable and trustworthy when reality gets messy.
+
+| When the system faces… | I optimize for… |
 | --- | --- |
-| **Data systems** | ETL/ELT, ingestion, validation, reconciliation, reporting, data quality |
-| **Python engineering** | APIs, CLIs, automation, scraping, integrations, scheduled workflows |
-| **Production quality** | Tests, CI/CD, observability, fail-closed behavior, documentation, audit artifacts |
-| **Product systems** | Backend + data workflows behind tools and content products used in production |
+| Dirty, incomplete or changing data | explicit validation and contracts |
+| Conflicting sources | provenance, confidence and deterministic rules |
+| Financial or operational ambiguity | fail-closed behavior instead of invented certainty |
+| Scheduled automation | observable failures, retries and auditable outputs |
+| Long-lived code | tests, documentation and maintainable boundaries |
 
-## Proof, Not Buzzwords
+## Proof of Work
 
-- [`chile-hub`](https://github.com/cortega26/chile-hub) is my flagship open-source data project: **100+ GitHub stars, 10+ forks**, PyPI distribution, CI/CD, documentation, and multiple analytical interfaces.
-- I maintain **3 PyPI packages**: [`chile-hub`](https://pypi.org/project/chile-hub/), [`bankrecon`](https://pypi.org/project/bankrecon/), and [`rutificador`](https://pypi.org/project/rutificador/).
-- I build and operate live products including [Tooltician](https://tooltician.com/), [Monedario](https://monedario.cl/), and [Noticiencias](https://www.noticiencias.com/).
-- My public work spans data engineering, financial workflows, browser/data automation, document processing, APIs, and TypeScript/Astro product development.
+- **Open-source adoption:** [chile-hub](https://github.com/cortega26/chile-hub) has grown into a practical public-data toolkit for Chile, with active community adoption and package distribution.
+- **Published Python packages:** [chile-hub](https://pypi.org/project/chile-hub/), [bankrecon](https://pypi.org/project/bankrecon/) and [rutificador](https://pypi.org/project/rutificador/).
+- **Production ownership:** I build and operate [Tooltician](https://tooltician.com/), [Monedario](https://monedario.cl/) and [Noticiencias](https://www.noticiencias.com/).
+- **Engineering range:** data pipelines, APIs, reconciliation, scraping, document processing, desktop tooling, CI/CD and TypeScript/Astro product work.
+
+[![chile-hub stars](https://img.shields.io/github/stars/cortega26/chile-hub?style=flat&logo=github&label=chile-hub%20stars)](https://github.com/cortega26/chile-hub/stargazers)
+[![rutificador stars](https://img.shields.io/github/stars/cortega26/rutificador?style=flat&logo=github&label=rutificador%20stars)](https://github.com/cortega26/rutificador/stargazers)
 
 ## Featured Projects
 
-- [chile-hub](https://github.com/cortega26/chile-hub) — curated, normalized, and validated Chilean public data for analysts and developers, consumable through Python, Polars, DuckDB, SQLite, and Excel.
+- [chile-hub](https://github.com/cortega26/chile-hub) — turns fragmented Chilean public data into curated, normalized and validated datasets ready for Python, Polars, DuckDB, SQLite and Excel.
   <sub>Python · Data engineering · Open data · PyPI · CI/CD</sub>
 
-- [conciliador_bancario](https://github.com/cortega26/conciliador_bancario) — fail-closed bank reconciliation CLI with deterministic outputs and audit artifacts for month-end workflows. Published on PyPI as `bankrecon`.
-  <sub>Python · Reconciliation · CLI · Auditability · PyPI</sub>
+- [conciliador_bancario](https://github.com/cortega26/conciliador_bancario) — fail-closed bank reconciliation CLI built around deterministic matching, explicit ambiguity and audit-ready artifacts. Published as `bankrecon`.
+  <sub>Python · Reconciliation · Financial workflows · Auditability · PyPI</sub>
 
-- [rutificador](https://github.com/cortega26/rutificador) — Python library and CLI for validating and formatting Chilean RUT identifiers, with batch-friendly interfaces and package distribution.
-  <sub>Python · Validation · CLI · PyPI · CI/CD</sub>
+- [rutificador](https://github.com/cortega26/rutificador) — zero-dependency Python core plus CLI and integrations for validating, calculating and formatting Chilean RUT identifiers.
+  <sub>Python · Validation · CLI · FastAPI/Pydantic integrations · PyPI</sub>
 
-- [polla](https://github.com/cortega26/polla) — scheduled web-data ingestion with deterministic fallbacks, observability, and Google Sheets publishing.
-  <sub>Python · Automation · Scraping · Data pipelines · Google Sheets API</sub>
+- [DNSpect](https://github.com/cortega26/DNSpect) — local-first DNS benchmarking across multiple protocols, designed to answer which resolver is actually better on your network rather than on somebody else's test server.
+  <sub>Python · TypeScript · Networking · Benchmarking · Desktop packaging</sub>
 
-- [PDF-Text-Analyzer](https://github.com/cortega26/PDF-Text-Analyzer) — multilingual PDF extraction, search, and text-analysis toolkit for turning document collections into queryable data.
-  <sub>Python · PDF processing · NLP · Search</sub>
+- [PDF-Text-Analyzer](https://github.com/cortega26/PDF-Text-Analyzer) — modular PDF ingestion, validation, multilingual extraction and search that keeps document failure modes visible instead of silently returning bad data.
+  <sub>Python · PDF processing · NLP · Search · Batch pipelines</sub>
 
-- [noticiencias](https://github.com/cortega26/noticiencias) — production science-publishing frontend focused on readability, accessibility, multilingual content, and search discovery.
-  <sub>Astro · TypeScript · Accessibility · SEO · Content systems</sub>
+## Products I Operate
+
+| Product | What it does |
+| --- | --- |
+| [Tooltician](https://tooltician.com/) | software, automation and technical services |
+| [Monedario](https://monedario.cl/) | practical Chilean financial calculators and decision tools |
+| [Noticiencias](https://www.noticiencias.com/) | science and technology publishing focused on readability, accessibility and search discovery |
+
+I like owning the full feedback loop: **build → ship → observe → correct → document**.
 
 ## Stack
 
-**Core:** Python · SQL · FastAPI · Pandas · NumPy · Pydantic · Selenium · BeautifulSoup  
-**Supporting:** JavaScript/TypeScript · Astro · Node.js · GitHub Actions · Docker · Linux
+**Core:** Python · SQL · FastAPI · Pydantic · Pandas · Polars · NumPy · Requests · Selenium · BeautifulSoup  
+**Product:** JavaScript/TypeScript · Astro · React · Node.js  
+**Delivery:** GitHub Actions · Docker · Linux · APIs · scheduled automation
 
-## How I Work
+## How I Engineer
 
-- Prefer explicit contracts and deterministic outputs over cleverness.
-- Treat failure modes, observability, and auditability as part of the feature.
-- Ship tests and documentation with the implementation, not as cleanup afterward.
-- Optimize for systems another engineer can understand, operate, and extend.
+- Make invalid states and uncertainty visible.
+- Prefer deterministic behavior over clever but opaque heuristics.
+- Treat observability, auditability and failure handling as product features.
+- Keep contracts explicit between data, code and downstream consumers.
+- Ship tests and documentation with the implementation.
+- Optimize for software another engineer can understand, operate and extend.
 
-## Contact
+## Work With Me
 
-For engineering roles, open-source collaboration, or selected consulting work: [carlos@tooltician.com](mailto:carlos@tooltician.com) · [LinkedIn](https://www.linkedin.com/in/cortega26)
+If you are building data-heavy products, backend systems, financial workflows or automation where **correctness under messy real-world conditions matters**, I am interested in the problem.
+
+[Email me](mailto:carlos@tooltician.com) · [Connect on LinkedIn](https://www.linkedin.com/in/cortega26) · [See the portfolio](https://tooltician.com/)
 
 <details>
-  <summary>ESPAÑOL — Resumen breve</summary>
+  <summary><strong>ESPAÑOL — resumen</strong></summary>
 
 ### Hola, soy Carlos
 
-Soy ingeniero Python enfocado en sistemas de datos y automatización. Construyo pipelines ETL, herramientas de conciliación, APIs, scrapers y flujos operacionales con énfasis en comportamiento determinístico, observabilidad, trazabilidad y documentación mantenible.
+**Python Engineer · Sistemas de datos y automatización · ETL · APIs · Conciliación**
 
-Vivo en Santiago de Chile. Español nativo, inglés C2. Estoy abierto a roles 100% remotos de Python, Data o Backend para equipos LATAM/US, además de proyectos de consultoría seleccionados.
+Construyo sistemas para datos del mundo real: fuentes que cambian, entradas incompletas, información contradictoria y procesos donde una respuesta incorrecta puede ser peor que un fallo explícito.
+
+Estoy abierto a roles **100% remotos de Python / Data / Backend** para equipos LATAM o compatibles con horario de EE. UU., además de proyectos de consultoría seleccionados.
+
+[Portafolio](https://tooltician.com/) · [LinkedIn](https://www.linkedin.com/in/cortega26) · [Correo](mailto:carlos@tooltician.com)
 
 #### Proyectos destacados
 
-- [chile-hub](https://github.com/cortega26/chile-hub) — datos públicos de Chile curados, normalizados y validados, disponibles para análisis con Python, Polars, DuckDB, SQLite y Excel.
-- [conciliador_bancario](https://github.com/cortega26/conciliador_bancario) — CLI de conciliación bancaria fail-closed con resultados determinísticos y artefactos de auditoría.
-- [rutificador](https://github.com/cortega26/rutificador) — librería y CLI para validar y formatear RUTs chilenos, publicada en PyPI.
-- [polla](https://github.com/cortega26/polla) — pipeline automatizado de ingesta web con fallbacks determinísticos, observabilidad y publicación en Google Sheets.
-- [PDF-Text-Analyzer](https://github.com/cortega26/PDF-Text-Analyzer) — toolkit multilingüe para extracción, búsqueda y análisis de PDFs.
-- [noticiencias](https://github.com/cortega26/noticiencias) — frontend de publicación científica en Astro/TypeScript, orientado a legibilidad, accesibilidad y SEO.
+- [chile-hub](https://github.com/cortega26/chile-hub) — transforma datos públicos fragmentados de Chile en datasets curados, normalizados y validados, listos para Python, Polars, DuckDB, SQLite y Excel.
 
-#### Enlaces
+- [conciliador_bancario](https://github.com/cortega26/conciliador_bancario) — CLI de conciliación bancaria fail-closed, con matching determinístico, ambigüedad explícita y artefactos de auditoría. Publicado como `bankrecon`.
 
-[Portafolio](https://tooltician.com/) · [LinkedIn](https://www.linkedin.com/in/cortega26) · [Correo](mailto:carlos@tooltician.com)
+- [rutificador](https://github.com/cortega26/rutificador) — núcleo Python sin dependencias, CLI e integraciones para validar, calcular y formatear RUT chilenos.
+
+- [DNSpect](https://github.com/cortega26/DNSpect) — benchmark DNS local-first y multiprotocolo para medir qué resolver funciona realmente mejor en tu propia red.
+
+- [PDF-Text-Analyzer](https://github.com/cortega26/PDF-Text-Analyzer) — ingesta, validación, extracción multilingüe y búsqueda de PDFs manteniendo visibles los modos de fallo.
+
+#### Cómo trabajo
+
+Priorizo contratos explícitos, resultados determinísticos, observabilidad, trazabilidad, tests y documentación. Cuando existe incertidumbre, prefiero mostrarla antes que inventar certeza.
+
+[Correo](mailto:carlos@tooltician.com) · [LinkedIn](https://www.linkedin.com/in/cortega26) · [Portafolio](https://tooltician.com/)
 
 </details>
