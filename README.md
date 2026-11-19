@@ -35,6 +35,9 @@ Reliable software is not just code that works on the happy path. I focus on syst
 - [chile-hub](https://github.com/cortega26/chile-hub) — turns fragmented Chilean public data into curated, normalized and validated datasets ready for Python, Polars, DuckDB, SQLite and Excel.
   <sub>Python · Data engineering · Open data · PyPI · CI/CD</sub>
 
+- [Monedario](https://github.com/cortega26/Monedario) — public Astro platform for Chilean personal finance: live indicators, practical calculators, and an editorial pipeline with source verification and CI gates.
+  <sub>Astro · TypeScript · Data pipelines · CI/CD · Public product</sub>
+
 - [conciliador_bancario](https://github.com/cortega26/conciliador_bancario) — fail-closed bank reconciliation CLI built around deterministic matching, explicit ambiguity and audit-ready artifacts. Published as `bankrecon`.
   <sub>Python · Reconciliation · Financial workflows · Auditability · PyPI</sub>
 
@@ -94,6 +97,9 @@ Estoy abierto a roles **100% remotos de Python / Data / Backend** para equipos L
 #### Proyectos destacados
 
 - [chile-hub](https://github.com/cortega26/chile-hub) — transforma datos públicos fragmentados de Chile en datasets curados, normalizados y validados, listos para Python, Polars, DuckDB, SQLite y Excel.
+
+- [Monedario](https://github.com/cortega26/Monedario) — plataforma pública en Astro para finanzas personales en Chile: indicadores en vivo, calculadoras y un pipeline editorial con verificación de fuentes y gates de CI.
+  <sub>Astro · TypeScript · Pipelines de datos · CI/CD · Producto público</sub>
 
 - [conciliador_bancario](https://github.com/cortega26/conciliador_bancario) — CLI de conciliación bancaria fail-closed, con matching determinístico, ambigüedad explícita y artefactos de auditoría. Publicado como `bankrecon`.
 
